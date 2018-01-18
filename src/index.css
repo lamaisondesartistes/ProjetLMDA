@@ -131,3 +131,395 @@ text-align: center;
   background-color: rgba(59, 109, 26, 0.651);
 }
 }
+/*GOGO==========================================*/
+
+#Cards-container{
+  padding-top:40px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  list-style: none;
+  flex-wrap: wrap;
+  color: black;
+  -webkit-z-index: 1;
+  z-index: 1;
+}
+
+#croix{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  -webkit-z-index: 5;
+  z-index: 5;
+  width: 20px;
+  height: 20px;
+}
+
+#croix:hover{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  -webkit-z-index: 5;
+  z-index: 5;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.creatorspp{
+  width: 21vw;
+
+}
+
+.creatorpp{
+  width: 380px;
+}
+
+.Cards{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  border: 1px solid #e8e8e8;
+  background-color: #fcfcfc;
+  overflow: hidden;
+  transition: linear 0.2s;
+  border-radius: 3px; 
+  
+}
+.Cards:hover{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: white;
+  opacity: 0.6;  
+  overflow: hidden;
+  margin-top: -6px;
+  cursor: pointer;
+  border: 1px solid #e8e8e8; 
+}
+
+#modal-container{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  -webkit-display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -webkit-z-index: 2;
+  z-index: 2;
+  background-color: rgba(0,0,0,.75);
+}
+
+#creatorprofile{
+  display: flex;
+  -webkit-display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -webkit-z-index: 4;
+  z-index: 4;
+  /*border: 1px solid #e8e8e8;*/
+  background-color: #fcfcfc;
+  overflow: hidden;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  width: calc(380*2);
+}
+
+
+
+#creatorinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 0 10px;
+  height: 360px;
+
+}
+
+#creatorinfo h1{
+  width: 380px;
+  font-family: helvetica;
+  text-align: center;
+
+}
+
+#creatorinfo p{
+  width: 360px;
+  text-align: center;
+  
+}
+
+
+
+@media all and (max-width: 640px){
+
+
+#Cards-container{
+  flex-direction: column;
+  align-items: center;
+}
+
+#croix{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  -webkit-z-index: 5;
+  z-index: 5;
+  width: 20px;
+  height: 20px;
+}
+
+#croix:hover{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  -webkit-z-index: 5;
+  z-index: 5;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.creatorspp{
+  width: 80vw;
+
+}
+
+.creatorpp{
+  width: 380px;
+}
+
+.Cards{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  border: 1px solid #e8e8e8;
+  background-color: #fcfcfc;
+  overflow: hidden;
+  transition: linear 0.2s;
+  border-radius: 3px; 
+   
+}
+.Cards:hover{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+   margin-bottom: 40px;
+  background-color: white;
+  opacity: 0.6;  
+  overflow: hidden;
+  margin-top: -6px;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+}
+
+#modal-container{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -webkit-z-index: 2;
+  z-index: 2;
+}
+
+#creatorprofile{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-z-index: 4;
+  z-index: 4;
+  -webkit-z-index: 4;
+  /*border: 1px solid #e8e8e8;*/
+  background-color: #fcfcfc;
+  overflow: hidden;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  width: 70vw;
+ height: auto;
+}
+
+#creatorprofile img{
+  width: 100%;
+}
+
+
+#creatorinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  padding: 0px;
+  height: auto;
+  width: 100%;
+
+}
+
+#creatorinfo h1{
+  width: 100%;
+  font-family: helvetica;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+#creatorinfo p{
+ padding: 10px;
+ width: 100%;
+text-align: center;
+margin: 0;
+}
+ 
+}
+
+@media all and (min-width: 641px) and (max-width: 1024px){
+
+#Cards-container{
+  padding-top:40px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  list-style: none;
+  flex-wrap: wrap;
+  color: black;
+  -webkit-z-index: 1;
+  z-index: 1;
+}
+
+#croix{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  -webkit-z-index: 5;
+  z-index: 5;
+  width: 20px;
+  height: 20px;
+}
+
+#croix:hover{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  -webkit-z-index: 5;
+  z-index: 5;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.creatorspp{
+  width: 31vw;
+
+}
+
+.creatorpp{
+  width: 319px;
+}
+
+.Cards{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  border: 1px solid #e8e8e8;
+  background-color: #fcfcfc;
+  overflow: hidden;
+  transition: linear 0.2s;
+  border-radius: 3px; 
+  
+}
+.Cards:hover{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: white;
+  opacity: 0.6;  
+  overflow: hidden;
+  margin-top: -6px;
+  cursor: pointer;
+  border: 1px solid #e8e8e8; 
+}
+
+#modal-container{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  -webkit-display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -webkit-z-index: 2;
+  z-index: 2;
+  background-color: rgba(0,0,0,.75);
+}
+
+#creatorprofile{
+  display: flex;
+  -webkit-display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -webkit-z-index: 4;
+  z-index: 4;
+  /*border: 1px solid #e8e8e8;*/
+  background-color: #fcfcfc;
+  overflow: hidden;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  width: calc(319+299);
+}
+
+
+
+#creatorinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 0 10px;
+  height: auto;
+  width: 299px;
+
+}
+
+#creatorinfo h1{
+  width: 299px;
+  font-family: helvetica;
+  text-align: center;
+
+}
+
+#creatorinfo p{
+  width: 299px;
+  text-align: center;
+  
+}
+ 
+}
+
+
+
+
