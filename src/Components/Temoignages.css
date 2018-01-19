@@ -1,0 +1,65 @@
+.Wit-Grandcontainer{
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.Wit-container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.Wit-app{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 1px solid grey;
+  }
+  .Wit-texteCache{
+    border: 2px solid #59B23C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  position: absolute;
+  text-align: center;
+  border-radius: 100px;
+  background-color: #59B23C;
+  width: 10%;
+  opacity: 0;
+  height: 100px;
+  -webkit-transition : opacity 1s ease, width 1s ease;
+  -moz-transition : opacity 1s ease, width 1s ease;
+  -ms-transition : opacity 1s ease, width 1s ease;
+  -o-transition : opacity 1s ease, width 1s ease;
+  transition: opacity 1s ease, width 1s ease;
+
+
+}
+.Wit-text{
+  font-size: 90%;
+}
+.Wit-texteCache:hover{
+  width: 33%;
+  opacity: 1;
+}
+@media (max-width:640px){
+  .Wit-texteCache{
+    font-size:70%;
+    position: absolute;
+    width: 10%;
+    transition :  width 1s ease;
+    -webkit-transition :  width 1s ease;
+    -moz-transition :  width 1s ease;
+    -o-transition :  width 1s ease;
+  }
+  .Wit-texteCache:hover{
+    width: 70%;
+  }
+  .Wit-container{
+    flex-direction: column;
+
+    align-items: center;
+  }
+}
