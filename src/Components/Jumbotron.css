@@ -1,0 +1,24 @@
+#TitreLmda{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding-bottom: 2%;
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    margin-top: 0%;
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #SousTitreLmda{
+    padding-bottom: 2%;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
