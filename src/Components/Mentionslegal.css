@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.Legal-Notice{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Block-Info{
+  width:50%;
+  height: auto;
+padding: 30px;
+  display:flex;
+  flex-direction: column;
+  margin-left:10%;
+  
+}
+.Title-lign{
+  display: flex;
+  font-family: 'Montserrat', 'sans-serif';
+  justify-content:center;
+}
