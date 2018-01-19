@@ -1,0 +1,101 @@
+@media all and (min-width: 1350px){
+  .App {
+    text-align: center;
+  }
+  .Card{
+    background-color: black;
+    height: 100%;
+    width: 300px;
+  }
+  .imgProduit{
+    background-color: black;
+    width: 320px;
+    height: 239px;
+    transition: linear 0.2s;
+  }
+  .div-Card-Image:hover{
+    opacity: 0.6;
+  }
+  .description-produit{
+    opacity: unset;
+    position: relative;
+    bottom: 250px;
+  }
+  .description-produit:hover{
+    position: relative;
+     opacity: unset;
+    bottom: 250px;
+
+  }
+  .div-Card-Image{
+    overflow: hidden;
+    color: white;
+    text-shadow: 3px black;
+    justify-content: center;
+    width: 300px;
+    height: 219px;
+  }
+
+  .div-cards{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+}
+
+
+
+@media all and (max-width: 1350px){
+.App {
+  text-align: center;
+}
+.Card{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  height: 100%;
+  width: 300px;
+}
+.imgProduit{
+  background-color: black;
+  width: 320px;
+  height: 239px;
+  transition: linear 0.2s;
+}
+.div-Card-Image:hover{
+  opacity: 0.6;
+}
+.description-produit{
+  opacity: unset;
+  position: relative;
+  bottom: 250px;
+}
+.description-produit:hover{
+  position: relative;
+   opacity: unset;
+  bottom: 250px;
+}
+.div-Card-Image{
+  overflow: hidden;
+  color: white;
+  text-shadow: 3px black;
+  justify-content: center;
+  width: 300px;
+  height: 219px;
+}
+.descrip-produit-card{
+  transition: linear 0.5s;
+  height: 220px;
+  overflow: hidden;
+}  
+.div-cards{
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+}
+
+
