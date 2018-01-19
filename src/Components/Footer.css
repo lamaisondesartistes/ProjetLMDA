@@ -1,0 +1,68 @@
+@media screen and (max-width:600px) {
+.contenu{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+.info{
+display:flex;
+margin-inline-end:35%;
+}
+}
+.contenu{
+background-color: green;
+color:white;
+display:flex;
+justify-content:space-between;
+}
+.home{
+display:flex;
+color:black;
+align-items:center;
+}
+.call{
+display:flex;
+color:black;
+align-items:center;
+}
+.container{
+display:flex;
+justify-content:flex-end;
+background-color:black;
+color:white;
+}
+.icon i {
+	font-size:15px;
+}
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height:40px;
+	width: 40px;
+	border-radius: 70%;
+	margin-right: 20px;
+}
+.icon.social {
+	cursor:pointer;
+	background:rgb(37, 3, 3);
+	color:rgb(253, 253, 253);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.icon.social:hover {
+	background:#ffffff ;
+	color:rgb(25, 25, 148);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	filter: 			drop-shadow(0 1px 10px rgba(105, 24, 24, 0.8));	
+}
