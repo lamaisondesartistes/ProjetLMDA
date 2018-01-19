@@ -23,6 +23,8 @@ body {
   color: rgb(255, 255, 255);
   padding: 5px;
   cursor: pointer;
+  border-radius: 50%;
+  margin: 0 5px;
 }
 
 .divLMDA{
@@ -144,6 +146,7 @@ text-align: center;
   color: black;
   -webkit-z-index: 1;
   z-index: 1;
+  padding: 0;
 }
 
 #croix{
@@ -215,6 +218,7 @@ text-align: center;
   -webkit-z-index: 2;
   z-index: 2;
   background-color: rgba(0,0,0,.75);
+  top: 0;
 }
 
 #creatorprofile{
@@ -267,6 +271,7 @@ text-align: center;
 #Cards-container{
   flex-direction: column;
   align-items: center;
+  padding: 0;
 }
 
 #croix{
@@ -291,7 +296,7 @@ text-align: center;
 }
 
 .creatorspp{
-  width: 80vw;
+  width: 50vw;
 
 }
 
@@ -337,6 +342,7 @@ text-align: center;
   align-items: center;
   -webkit-z-index: 2;
   z-index: 2;
+  top: 0;
 }
 
 #creatorprofile{
@@ -473,6 +479,7 @@ margin: 0;
   -webkit-z-index: 2;
   z-index: 2;
   background-color: rgba(0,0,0,.75);
+  top: 0;
 }
 
 #creatorprofile{
