@@ -23,13 +23,13 @@ const creators = [
   }, {
     url: 'images/lulu.png',
     nom: 'Lucien De Santana',
-    descri: 'Une vrai force de proposition et un leadership incontestable.',
-    poste: 'xxxxxxx',
+    descri: 'Ramène des fruit lorsqu\'il nous fait l\'honneur de sa présence',
+    poste: 'SQUAAAAAAD',
   }, {
     url: 'images/yc.png',
-    nom: 'Yves_christophe',
-    descri: 'Une vrai force de proposition et un leadership incontestable.',
-    poste: 'xxxxxxx',
+    nom: 'Yves-christophe',
+    descri: 'This nigga pull up on ur CSS bro! For real.',
+    poste: 'DESIGNER',
   }, {
     url: 'images/mm.png',
     nom: 'Marie-Marthe',

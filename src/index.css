@@ -136,7 +136,7 @@ text-align: center;
 /*GOGO==========================================*/
 
 #Cards-container{
-  padding-top:40px; 
+  margin-top:40px; 
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -147,6 +147,7 @@ text-align: center;
   -webkit-z-index: 1;
   z-index: 1;
   padding: 0;
+
 }
 
 #croix{
@@ -172,6 +173,7 @@ text-align: center;
 
 .creatorspp{
   width: 21vw;
+  height: 21vw;
 
 }
 
