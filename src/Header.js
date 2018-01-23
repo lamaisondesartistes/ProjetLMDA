@@ -7,11 +7,7 @@ class Header extends Component {
     render() {
         return (
             <div className="Header">
-            <div className="Langues">
-                    <li className="ListeLangues">CR</li>
-                    <li className="ListeLangues">FR</li>
-                    <li className="ListeLangues">EN</li>
-                </div>
+           
             <div className="divLMDA">
             <NavLink to="/Accueil"><img src={LMDA} alt="logo" className="LMDA"/></NavLink>
             </div>
