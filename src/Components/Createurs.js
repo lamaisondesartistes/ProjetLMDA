@@ -50,6 +50,16 @@ const creators = [
     nom: 'Shen Chapoullie',
     descri: 'Une vrai force de proposition et un leadership incontestable.',
     poste: 'xxxxxxx',
+  }, {
+    url: 'images/shun.png',
+    nom: 'Shen Chapoullie',
+    descri: 'Une vrai force de proposition et un leadership incontestable.',
+    poste: 'xxxxxxx',
+  }, {
+    url: 'images/shun.png',
+    nom: 'Shen Chapoullie',
+    descri: 'Une vrai force de proposition et un leadership incontestable.',
+    poste: 'xxxxxxx',
   },];
 class Createurs extends Component {
   state = {

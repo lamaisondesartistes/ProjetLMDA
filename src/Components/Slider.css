@@ -12,13 +12,13 @@ h1{
   width: 45%;
   overflow: hidden;
 }
-ul{
+.slider-container ul{
   display: flex;
   list-style: none;
   margin: 0;padding: 0;
   transition: all 0.5s ease-in-out;
 }
-li img{
+.slider-container li img{
   height: 200px;
   width: 200px;
 } 
@@ -29,19 +29,19 @@ li img{
     width: 300px;
     overflow: hidden;
   }
-  ul{
+  .slider-container ul{
     display: flex;
     list-style: none;
     width: 500px;
     transition: all 0.5s ease-in-out;
   }
-  li img{
+  .slider-container li img{
     height: 100px;
     width: 100px;
   }
 }
 
-button{
+.slider-container button{
   margin:65px 10px;
   height: 50px;
   background-color: #e6d177;
@@ -52,7 +52,7 @@ button{
   
 }
 @media screen and (min-width: 200px) and (max-width: 730px) {
-  button{
+  .slider-container button{
     margin:30px 10px;
     height: 50px;
     background-color: #e6d177;
@@ -61,7 +61,7 @@ button{
     border-radius: 50%;  
   }
 }
-button:hover{
+.slider-container button:hover{
   background-color: #0f460f;
   color:#ffff07;
  
