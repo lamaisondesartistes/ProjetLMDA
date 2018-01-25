@@ -1,0 +1,15 @@
+.imgPresentation{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  .textPresentation{
+    display:block;
+    width: 70%;
+    background-color: #FAFAFA
+  }
+  .theTitre{
+    justify-content: center;
+    display: flex;
+  }
