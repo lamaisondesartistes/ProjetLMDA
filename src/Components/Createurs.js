@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import img from '../Images/PP.jpg';
+
 const creators = [
   {
     url: './images/karl.png',

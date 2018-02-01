@@ -9,6 +9,7 @@ const divStyle = {
   width: "100%",
   paddingTop: "12%",
   paddingBottom: "2%",
+
  }
 class App extends Component {
   render() {

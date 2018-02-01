@@ -1,15 +1,19 @@
+
 .imgPresentation{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
+  }
+  .Paysage{
+    width: 100%;
+    height: 150px;
+    filter: brightness(70%);
   }
   .textPresentation{
-    display:block;
-    width: 70%;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
     background-color: #FAFAFA
-  }
-  .theTitre{
-    justify-content: center;
-    display: flex;
   }
