@@ -1,19 +1,23 @@
-
-.imgPresentation{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .Paysage{
-    width: 100%;
-    height: 150px;
-    filter: brightness(70%);
-  }
-  .textPresentation{
-    font-family: 'Quicksand', sans-serif;
-    width: 100%;
-    padding: 1%;
-    padding-left: 4%;
-    padding-right: 4%;
-    background-color: #FAFAFA
-  }
+.Pres-Container{
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Pres-Back{
+  width: 70%;
+  background-color:#708e5a;
+  padding: 2%;
+}
+.Pres-Title{
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+}
+.Pres-Content{
+  font-size: 80%;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+.Pres-Banner{
+  width: 100%;
+}
