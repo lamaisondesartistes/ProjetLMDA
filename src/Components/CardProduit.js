@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+
+ 
 class CardMini extends Component {
   state={
     visibility:'hidden',
@@ -7,11 +9,11 @@ class CardMini extends Component {
     witdhImage:'320px'
   }
   showDesc=()=>{
+
     this.setState({
       visibility : 'visible',
       heightImage:'270px',
-      witdhImage:'350px'
-      
+      witdhImage:'350px',
     })
   }
   hideDesc=()=>{
@@ -23,15 +25,19 @@ class CardMini extends Component {
   }
   
   render(){
-
+    const Imageuh = {
+      backgroundImage:`url(${this.props.src})`,
+      backgroundSize:'cover',
+      height:'239px',
+    }
     return (
-      <div className="Card" onMouseOver={this.showDesc} onMouseLeave={this.hideDesc}>
-          <div className="div-Card-Image" >
-                <img className="imgProduit" src={this.props.src} alt={this.props.alt} style={{height:this.state.heightImage, width:this.state.witdhImage} }/>
-                <div className='description-produit' style={{visibility:this.state.visibility}}>
-                  <h1 className="nomProduit" >{this.props.nomProduit}</h1>
-                  <p className="descriProduit" >{this.props.descriProduit}</p>
-                </div>
+      <div className="Card"  >
+          <div className="div-Card-Image">
+              <div className="imgProduit" style={Imageuh} onMouseOver={this.showDesc} onMouseLeave={this.hideDesc}>
+              <p className="TitreDeProduit" style={{visibility:this.state.visibility}} >{this.props.nomProduit}</p>
+              <p style={{visibility:this.state.visibility}} >{this.props.descriProduit}</p>
+              </div>              
+              
           </div>
       </div>
     );

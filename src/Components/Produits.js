@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import TestImage from '../Images/contact3.jpg';
+
 const products = [
   {
     url: './images/oiseaux.jpg',
@@ -57,6 +59,7 @@ class App extends Component {
     return (
 
       <div id="App">
+        
         {
           modalVisibility ?
 
@@ -77,6 +80,10 @@ class App extends Component {
 
             : null
         }
+        <div className="ImageNature">
+          <img src={TestImage} alt="Nature" className="Imageuh"/>
+          <p className="TextAlignCenter">Nos Produits</p>
+        </div>
         <ul id="Cards-container">
           {products.map((Card, i) => {
             return (
