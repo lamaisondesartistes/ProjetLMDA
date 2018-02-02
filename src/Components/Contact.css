@@ -1,123 +1,140 @@
-.Contact{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    font-family: 'Comic Sans MS', arial;
-    background-color: #fafafa;
-    width:100%;
-    padding: 1% 0%;
+body {
+  font-family: 'Comic Sans MS', arial;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fafafa;
+}
+
+.pictureContact {
+  margin-left: auto;
+  margin-right: auto;
+  width: 93%;
+  height: 10%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../Images/contact3.jpg');
+  background-size: cover;
+}
+
+.TextLorem {
+  background-color: #659660;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin: auto;
+  height: auto;
+  width: 80%;
+  border-radius: 3px;
+  color: white;
+}
+
+.Mapping {
+  height: 70%;
+  width: auto;
+  border-radius: 3px;
+  border-color: #659660;
+}
+
+.ContainerMap {
+  width: 80%;
+}
+
+.Contactcontainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: auto;
+  margin: 5%;
+}
+
+.contactContaine {
+  display: flex;
+}
+
+.Mapping {
+  height: 70%;
+  width: auto;
+  border-radius: 3px;
+  border-color: #659660;
+}
+
+.ContainerMap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: auto;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  display: block;
+}
+
+/* For desktop: */
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
   }
-  .pictureContact{
-    margin-left: auto;
-    margin-right: auto;
-    width:93%;
-    height: 10%; 
+  .TextLorem {
     text-align: center;
-    align-items: center;
-    justify-content: center;   
-    background-image: url('../Images/contact3.jpg');   
-    background-size: cover;
-    flex:2;/*rajout*/
-  } 
-  
-  .contactText{
-    color:white;  
-    width: auto;
-    justify-content: center;
-    align-items: center;
-  /*padding-bottom: 10%;*/
-    -moz-text-align-last: center;  
-    top: 50%;
-    padding:2.5% 0%;
-  }
-  .Contactcontainer{
-    flex:2;/*rajout*/
-    display: flex; 
-    justify-content: space-around;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    
-  
-  }
-  .contactContainer{
-    width: 50%;
-    height: auto;  
-    margin-top: 100px;  
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    flex:2;/*rajout*/
-  }
-  
-  .Mapping{
-    width:100%;
-    height:450px;
-  
-  }
-  
-  .MapContainer{
-    width: 50%;
-    height: auto;
-    margin-top: 100px; 
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    flex:2;/*rajout*/
-    display: flex;
     flex-direction: column;
+    background-color: #659660;
+    border-radius: 3px;
+    color: white;
   }
-  
-  .legendContact{
-    letter-spacing: 1.2px;
-    margin:0px, 10px;
-    font-style: italic;    
-    color:#1f451a;
-    border-radius: 8px;
-    padding: 0px,15px;
-    text-align:center;
-    
-  }
-  
-  
-  
-  @media (max-width:640px){
-  
-    .App{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-    }
-   
-  
-    .Contactcontainer{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      
-  
-    }
-  
-    .MapContainer{
-      width: auto;
-      height: auto;
-      margin-top: 45px;
-     
-    }
-  
-    .Mapping{
-      max-width: 100%;
-      height: 450px;
-    }
-  
-    
-    .contactContainer{
-      width:auto;
-      margin-top: 45px;
-      
-    }
-  }
-  body{
-    font-family: 'Comic Sans MS', arial;
-  }
+}
