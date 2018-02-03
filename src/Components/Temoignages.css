@@ -1,65 +1,102 @@
+.TemoiTitle{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+
+
+}
 .Wit-Grandcontainer{
-  height: 100px;
+  height: auto;
+  padding: 15px 0px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 10px;
+  padding:2% 5px;
+
 }
 .Wit-container{
   display: flex;
-  justify-content: center;
+ 
   justify-content: space-around;
+  background-color: rgba(25, 79, 33,0.6);
+
+  padding:1% 5px;
+ 
+  
+
 }
+
 .Wit-app{
+  padding: 2% 0px;
   display: flex;
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  border: 1px solid grey;
+  width: 80%; 
+ height:100%;
+ border-radius:100%;
+  box-shadow: 0px 0px 18px 3px darkolivegreen;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1); 
   }
-  .Wit-texteCache{
-    border: 2px solid #59B23C;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  position: absolute;
-  text-align: center;
-  border-radius: 100px;
-  background-color: #59B23C;
-  width: 10%;
-  opacity: 0;
-  height: 100px;
-  -webkit-transition : opacity 1s ease, width 1s ease;
-  -moz-transition : opacity 1s ease, width 1s ease;
-  -ms-transition : opacity 1s ease, width 1s ease;
-  -o-transition : opacity 1s ease, width 1s ease;
-  transition: opacity 1s ease, width 1s ease;
+  .Container-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .Wit-app:hover{
+    width:70%;
+    height: 90%;
+    z-index: 2;
+    -webkit-transition: all 1s ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+  
+  }
+  .textTemoignage{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2px;
+  top:10%;
+ color: #333333;
+ position: relative;
+  
+ 
+  }  
 
-
-}
 .Wit-text{
-  font-size: 90%;
+  font-size: 75%;
+  justify-content: flex-start;
 }
-.Wit-texteCache:hover{
-  width: 33%;
-  opacity: 1;
+
+.Wit-textN{
+  font-size: 75%;
+  justify-content: flex-start;
+   font-family: 'Quicksand', sans-serif;
 }
+
+
+
 @media (max-width:640px){
-  .Wit-texteCache{
-    font-size:70%;
-    position: absolute;
-    width: 10%;
-    transition :  width 1s ease;
-    -webkit-transition :  width 1s ease;
-    -moz-transition :  width 1s ease;
-    -o-transition :  width 1s ease;
-  }
-  .Wit-texteCache:hover{
-    width: 70%;
-  }
+  
   .Wit-container{
     flex-direction: column;
 
     align-items: center;
   }
+}
+ @media only screen and (min-device-width : 640px) and (max-device-width : 1024px){
+  
 }
