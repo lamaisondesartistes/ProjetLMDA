@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import './Presentation.css';
 import paysage from '../Images/paysage.jpg';
+import lambi from '../Images/lambi(blanc).png';
+import paysage1 from '../Images/IMG_20180203_130436.jpg';
+import paysage2 from '../Images/IMG_20180204_124949.jpg'
+
+
 class Presentation extends Component {
     render() {
         return (
@@ -8,7 +13,7 @@ class Presentation extends Component {
             <div className="Pres-Container">
                 <div className="Pres-Back">
                     <h1 className="Pres-Title">« Vivre simplement pour que simplement d’autres puissent vivre » (Gandhi)</h1>
-                    <img src={paysage} alt="" className="Pres-Banner"/>
+                    <img src={paysage1} alt="" className="Pres-Banner"/>
                     <p className="Pres-Content">
                     Il est dorénavant acquis que nous, citoyens des pays industrialisés, sommes pleinement responsables
 de la dégradation de notre environnement à l’échelle planétaire, autant sur le point du changement
@@ -30,10 +35,17 @@ qui épuise les ressources naturelles, creuse les écarts de richesse et ampute 
 actuelles et futures.</p>
                 </div>
             </div>
+            <div className="Pres-traitContainer">
+            <div className="Pres-LambiContainer">
+            <img src={lambi} alt="lambi" className="Pres-Lambi"/>
+            </div>
+            </div>
+
+
             <div className="Pres-Container">
                 <div className="Pres-Back">
-                    <h1 className="Pres-Title">Concours "Entreprendre enlycée"</h1>
-                    <img src={paysage} alt="" className="Pres-Banner"/>
+                    <h1 className="Pres-Title">Concours "Entreprendre en lycée"</h1>
+                    <img src={paysage2} alt="" className="Pres-Banner"/>
                     <p className="Pres-Content">
                     Dans le cadre du concours « Entreprendre en Lycée », le lycée H. BASTARAUD présente :
                     «  LA MAISON DES ARTISTES » création, production, vente et formation aux métiers de l’artisanat
