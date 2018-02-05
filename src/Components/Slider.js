@@ -1,80 +1,46 @@
 import React, { Component } from 'react';
+import Slidero from 'react-slick';
 import './Slider.css';
 
+import Slide2 from '../Images/ISlid2.png';
+import Slide3 from '../Images/ISlid3.png';
+import Slide4 from '../Images/ISlid4.png';
+import Slide5 from '../Images/ISlid5.png';
+import Slide6 from '../Images/ISlid6.png';
+import Slide7 from '../Images/ISlid1.png';
+import Slide8 from '../Images/ISlid8.png';
+import Slide9 from '../Images/ISlid9.png';
+import Slide1 from '../Images/ISlid1.png';
 
-const slides =[
-  {url:'https://veillecarto2-0.fr/wp-content/uploads/2017/06/wsi-imageoptim-communaute-de-communes-marie-galante_2.jpg',
-   title:''
-  },
-  {url:'http://online.fliphtml5.com/bkoj/ejxw/files/extfile/company_logo.jpg',
-   title:''
-  },
-  {url:'http://p4.storage.canalblog.com/42/64/90322/7691171.jpg',
-   title:''
-  },
-  {url:'http://www.atelierdarchivage.fr/wp-content/uploads/2015/12/saint-louisMG.jpg',
-   title:''
-  },
-  {url:'http://www.avij971.net/wp-content/uploads/partenaire-commune-capesterre-de-marie-galante.jpg',
-   title:''
-  },
-]
 
-class Slider extends Component {
-  
-  state ={
-    position: 1
-  }
-
-  previousSlide = () => {
-    this.setState({
-      position: --this.state.position
-    });
-    console.log(this.state.position);
-    if (this.state.position < 0 ) {
-      this.setState({
-        position: 2
-      })
-      console.log(this.state.position);
+class Rick extends Component {
+    render() {
+        const settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay : true,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 5000,
+          };
+        return (
+        <Slidero {...settings} className="sliderCoponent" >
+                        
+            <div className="Leslo"><img className="sliderCoponentImg " src={Slide2} alt="partenaire slide" width="20px" /></div>
+            <div className="Leslo"><img className="sliderCoponentImg " src={Slide4} alt="partenaire slide" width="20px" /></div>           
+            <div className="Leslo"><img className="sliderCoponentImg " src={Slide3} alt="partenaire slide" width="20px" /></div>
+            <div className="Leslo"><img className="sliderCoponentImg " src={Slide9} alt="partenaire slide" width="20px" /></div>
+            <div className="Leslo"><img className="sliderCoponentImg " src={Slide1} alt="partenaire slide" width="20px" /></div>
+            <div className="Leslo"><img className="sliderCoponentImg " src={Slide8} alt="partenaire slide" width="20px" /></div>
+            <div className="Leslo"><img className="sliderCoponentImg " src={Slide5} alt="partenaire slide" width="20px" /></div>
+            <div className="Leslo"><img className="sliderCoponentImg " src={Slide6} alt="partenaire slide" width="20px" /></div>
+            
+          </Slidero>
+        );
     }
-  }
-  nextSlide = () => {
-    this.setState({
-      position: ++this.state.position
-    });
-    console.log(this.state.position);
-  
-    if (this.state.position > 2 ) {
-      this.setState({
-        position:0
-      })
-      console.log(this.state.position);
-    }
-  }
-
-  
-
-  render() {
-    let newMargin = this.state.position *-200;
-    return (
-      <div className="App" style={{marginTop:'50px'}}>
-      <h1>Partenaires</h1>
-      <div className="Contain">
-      <button className="fa fa-arrow-left fa-2x" onClick={this.previousSlide}></button>
-      <div className="slider-container" >
-      <ul style={{ marginLeft: newMargin}}>
-      {slides.map((slide,i) =>{
-        return(
-          <li key={i}><img src={slide.url} alt={slide.title}/></li>
-        )
-      })}      
-      </ul>
-      </div>
-      <button className="fa fa-arrow-right fa-2x" onClick={this.nextSlide}></button>
-      </div>
-      </div>
-    );
-  }
 }
 
-export default Slider;
+export default Rick;

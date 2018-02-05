@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Footer from './Footer';
 import './Presentation.css';
 import paysage from '../Images/paysage.jpg';
 class Presentation extends Component {
     render() {
         return (
-            <div>
+        <div>
             <div className="Pres-Container">
                 <div className="Pres-Back">
                     <h1 className="Pres-Title">« Vivre simplement pour que simplement d’autres puissent vivre » (Gandhi)</h1>
@@ -62,7 +63,8 @@ actuelles et futures.</p>
                     • <strong>CREATION D’ACTIVITES DE LOISIRS</strong> : Péri scolarité, Ateliers variés, Animations diverses</p>
                 </div>
             </div>
-            </div>
+            <Footer/>
+        </div>
         );
     }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from './Footer';
 import img from '../Images/PP.jpg';
 
 const creators = [
@@ -116,6 +117,7 @@ class Createurs extends Component {
             )
           })}
         </ul>
+        <Footer/>
       </div>
     );
   }
