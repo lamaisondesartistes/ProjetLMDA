@@ -56,7 +56,7 @@ class Rick extends Component {
 
         return (
         <div>
-          <h3 className="sliderCo" ><strong>Partenaire</strong></h3>
+          <h3 className="sliderCo" ><strong>Partenaires</strong></h3>
         <Slidero {...settings} className="sliderCoponent" >
           {data.map((el, i)=>{
             return(
