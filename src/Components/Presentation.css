@@ -7,13 +7,15 @@
 }
 .Pres-Back{
   width: 70%;
-  padding: 5%;
+  padding-bottom: 5%;
 }
 .Pres-Title{
   font-family: 'Kaushan Script', cursive;
   color: black;
   font-size: 3em;
-  padding: 3%;
+}
+.Pres-Title:nth-last-child(1n){
+  padding-top: 3%;
 }
 .Pres-Content{
   font-size: 1em;
