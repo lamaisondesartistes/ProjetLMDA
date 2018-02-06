@@ -59,9 +59,10 @@ class App extends Component {
     return (
 
       <div id="App">
-        <p className="TextLoremH">Le Lorem Ipsum est simplement du faux texte
-       employé dans la composition et la mise en page avant impression.Le Lorem Ipsum est simplement du faux texte
-       employé dans la composition et la mise en page avant impression.
+        <p className="TextLoremH">Marie-galante est riche de productions locales et de
+        traditions ancrées dans le patrimoine. Par conséquent LA MAISON DES ARTISTES se fera un
+        plaisir de contribuer à leur valorisation ainsi qu’à leur promotion, à travers toutes nos
+        créations.
       </p>
 
         {
