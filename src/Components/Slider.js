@@ -53,18 +53,16 @@ class Rick extends Component {
                   }
                 } ]
           };
-          
+
         return (
         <div>
           <h3 className="sliderCo" ><strong>Partenaire</strong></h3>
         <Slidero {...settings} className="sliderCoponent" >
-
           {data.map((el, i)=>{
             return(
               <li key={i}><img className="sliderCoponentImg" src={el.myImg} alt="Images slider"/></li>
             );
-          } ) }
-            
+          } ) }            
           </Slidero>
           </div>
         );
