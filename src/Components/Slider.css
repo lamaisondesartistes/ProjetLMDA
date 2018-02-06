@@ -5,13 +5,14 @@
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
-
-
 }
 .sliderCoponentImg{
   height: 77px;
   width: 75px;
   margin-left: 38%;
 }
-
+.sliderCo{
+  display: flex;
+  justify-content: center;
+}
 /* -------------------------------  */
