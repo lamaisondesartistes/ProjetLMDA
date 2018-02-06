@@ -61,7 +61,8 @@ body {
 
 .TextLorem {
   background-color: #659660;
-  padding: 20px;
+  padding: 5%;
+  margin-bottom: 20%;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   height: auto;

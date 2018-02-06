@@ -89,10 +89,8 @@ class Createurs extends Component {
     return (
 
       <div id="App">
-        <p className="TextLoremH">Le Lorem Ipsum est simplement du faux texte employé dans
-                     la composition et la mise en page avant impression.Le Lorem Ipsum est simplement du faux texte employé dans
-                     la composition et la mise en page avant impression.
-                     </p>
+        <p className="TextLoremH">
+        </p>
         {
           modalVisibility ?
 

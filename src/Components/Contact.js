@@ -13,15 +13,18 @@ class Contact extends Component {
                 <p><i className="fa fa-phone" aria-hidden="true"></i><b> N° de téléphone : 0690 .981.018 </b></p>
                 <div className="container-contact">
                     <div className="Contact">
-                        <p className="TextLorem">Le Lorem Ipsum est simplement du faux texte employé dansla composition et la mise en page avant impression.Le Lorem Ipsum est simplement du faux texte employé dans
-                            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.Le Lorem Ipsum est simplement du faux texte employé dans
-                            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
-                            Le Lorem Ipsum est simplement du faux texte employé dansla composition et la mise en page avant impression.Le Lorem Ipsum est simplement du faux texte employé dans
-                            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.Le Lorem Ipsum est simplement du faux texte employé dans
-                            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
-                            Le Lorem Ipsum est simplement du faux texte employé dansla composition et la mise en page avant impression.Le Lorem Ipsum est simplement du faux texte employé dans
-                            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.Le Lorem Ipsum est simplement du faux texte employé dans
-                            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+                        <p className="TextLorem">Afin de porter notre pierre à l’édifice, et pour répondre à un appel à « Entreprendre en lycée »
+concours organisé par le « GIPDAIFI » nous lycée Hyacinthe Bastaraud de Marie-Galante avons choisi
+de mettre en place : « La Maison des Artistes », entreprise à caractère commerciale qui a pour but de
+créer, produire, vendre des produits artisanaux fabriqués à partir de produits naturels (90%)
+(Éléments de la mer (coquillages, sable, coraux…), élément de la terre (graines, calebasses, bois
+flotté…)). De plus, notre entreprise propose un volet « formation » aux métiers de l’artisanat d’art.
+
+Le développement durable, est une alternative inéluctable à notre mode de développement actuel
+qui épuise les ressources naturelles, creuse les écarts de richesse et ampute l’avenir des générations
+actuelles et futures.
+La plupart des produits que nous achetons ont un impact sur l’environnement, car ils nécessitent de
+par leur production, emballage et livraison, des matières premières et de l’énergie.
                         </p>
                     </div>
                     <div className="ContainerMap">
