@@ -1,123 +1,103 @@
-.Contact{
-    display: flex;
-    justify-content: space-around;
+body {
+  font-family: 'Kaushan Script', cursive;
+}
+
+.BoxContainer {
+  padding: 20px 20px 20px 20px;
+}
+
+.legendContactC {
+  text-decoration: underline;
+}
+
+#legendContact {
+  text-align: center;
+}
+
+.container-contact {
+  width: 95vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contactText {
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.Contact {
+  display: flex;
+  background-color: #fafafa;
+  width: 55%;
+}
+
+.ContainerMap {
+  position: relative;
+  bottom: 205px;
+}
+
+.Mapping {
+  position: relative;
+  top: 140px;
+  width: 40vw;
+  height: 700px;
+  border: 2px solid #659660;
+}
+
+.pictureContact {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-image: url('../Images/contact3.jpg');
+  background-size: cover;
+}
+
+.TextLorem {
+  background-color: #659660;
+  padding: 5%;
+  margin-bottom: 20%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  height: auto;
+  width: 80%;
+  border-radius: 3px;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  /*For mobile phones: */
+  .container-contact {
     flex-direction: column;
-    font-family: 'Comic Sans MS', arial;
-    background-color: #fafafa;
-    width:100%;
-    padding: 1% 0%;
-  }
-  .pictureContact{
-    margin-left: auto;
-    margin-right: auto;
-    width:93%;
-    height: 10%; 
-    text-align: center;
-    align-items: center;
-    justify-content: center;   
-    background-image: url('../Images/contact3.jpg');   
-    background-size: cover;
-    flex:2;/*rajout*/
-  } 
-  
-  .contactText{
-    color:white;  
-    width: auto;
     justify-content: center;
-    align-items: center;
-  /*padding-bottom: 10%;*/
-    -moz-text-align-last: center;  
-    top: 50%;
-    padding:2.5% 0%;
-  }
-  .Contactcontainer{
-    flex:2;/*rajout*/
-    display: flex; 
-    justify-content: space-around;
     align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    
-  
   }
-  .contactContainer{
-    width: 50%;
-    height: auto;  
-    margin-top: 100px;  
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    flex:2;/*rajout*/
+  .BoxContainer {
+    padding: 20px 20px 20px 20px;
   }
-  
-  .Mapping{
-    width:100%;
-    height:450px;
-  
+  .Contact {
+    justify-content: center;
+    align-content: center;
+    width: 92vw;
+    margin-bottom: 180px;
   }
-  
-  .MapContainer{
-    width: 50%;
-    height: auto;
-    margin-top: 100px; 
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    flex:2;/*rajout*/
+  .div-iframe-contact {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
   }
-  
-  .legendContact{
-    letter-spacing: 1.2px;
-    margin:0px, 10px;
-    font-style: italic;    
-    color:#1f451a;
-    border-radius: 8px;
-    padding: 0px,15px;
-    text-align:center;
-    
+  .Mapping {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 400px;
   }
-  
-  
-  
-  @media (max-width:640px){
-  
-    .App{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-    }
-   
-  
-    .Contactcontainer{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      
-  
-    }
-  
-    .MapContainer{
-      width: auto;
-      height: auto;
-      margin-top: 45px;
-     
-    }
-  
-    .Mapping{
-      max-width: 100%;
-      height: 450px;
-    }
-  
-    
-    .contactContainer{
-      width:auto;
-      margin-top: 45px;
-      
-    }
+  .legendContactC {
+    text-align: center;
   }
-  body{
-    font-family: 'Comic Sans MS', arial;
-  }
+}
