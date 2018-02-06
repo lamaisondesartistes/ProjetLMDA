@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from './Footer';
 import img from '../Images/PP.jpg';
 
 const creators = [
@@ -120,6 +121,7 @@ la base."
             )
           })}
         </ul>
+        <Footer/>
       </div>
     );
   }

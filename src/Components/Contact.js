@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from './Footer';
 import './Contact.css';
 class Contact extends Component {
     render() {
@@ -15,7 +16,6 @@ class Contact extends Component {
                     <div className="Contact">
                         <p className="TextLorem">
                             <br />
-
                             Afin de porter notre pierre à l’édifice, et pour répondre à un appel à « Entreprendre en lycée »
 concours organisé par le « GIPDAIFI » nous lycée Hyacinthe Bastaraud de Marie-Galante avons choisi
 de mettre en place : « La Maison des Artistes », entreprise à caractère commerciale qui a pour but de
@@ -41,6 +41,7 @@ par leur production, emballage et livraison, des matières premières et de l’
                 </div>
 
             </div >
+
         );
     }
 }

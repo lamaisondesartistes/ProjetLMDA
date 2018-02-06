@@ -17,7 +17,7 @@ class Cards extends Component {
         <div className="div-cards">
           {this.state.dataProduit.map((card, i)=> {
           return(
-            <CardProduit src={card.src} nomProduit={card.nom} descriProduit={card.descr}/>
+            <CardProduit  key={i} src={card.src} nomProduit={card.nom} descriProduit={card.descr}/>
           )
           })}
         </div>

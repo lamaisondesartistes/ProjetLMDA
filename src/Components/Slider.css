@@ -1,68 +1,21 @@
-.Contain{
+/* -------------------------------  */
+
+.sliderCoponent{
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
-h1{
-   text-align: center;
-
+.sliderCoponentImg{
+  height: 77px;
+  width: 75px;
+  margin-left: 38%;
 }
-.slider-container{
+.sliderCo{
   display: flex;
-  height: 200px;
-  width: 45%;
-  overflow: hidden;
+  justify-content: center;
 }
-.slider-container ul{
+.tic{
   display: flex;
-  list-style: none;
-  margin: 0;padding: 0;
-  transition: all 0.5s ease-in-out;
 }
-.slider-container li img{
-  height: 200px;
-  width: 200px;
-} 
-@media screen and (min-width: 280px) and (max-width: 730px) {
-  .slider-container{
-    display: flex;
-    height: 100px;
-    width: 300px;
-    overflow: hidden;
-  }
-  .slider-container ul{
-    display: flex;
-    list-style: none;
-    width: 500px;
-    transition: all 0.5s ease-in-out;
-  }
-  .slider-container li img{
-    height: 100px;
-    width: 100px;
-  }
-}
-
-.slider-container button{
-  margin:65px 10px;
-  height: 50px;
-  background-color: #e6d177;
-  color: #5cad5c;
-  cursor: pointer;
-  box-shadow: 2px 2px 1px 1px black;
-  border-radius: 50%;  
-  
-}
-@media screen and (min-width: 200px) and (max-width: 730px) {
-  .slider-container button{
-    margin:30px 10px;
-    height: 50px;
-    background-color: #e6d177;
-    color: #5cad5c;
-    box-shadow: 2px 2px 1px 1px black;
-    border-radius: 50%;  
-  }
-}
-.slider-container button:hover{
-  background-color: #0f460f;
-  color:#ffff07;
- 
-}
+/* -------------------------------  */
