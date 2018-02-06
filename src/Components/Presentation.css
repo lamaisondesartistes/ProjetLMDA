@@ -7,7 +7,7 @@
 }
 .Pres-Back{
   width: 70%;
-  padding: 2%;
+  padding: 5%;
 }
 .Pres-Title{
   font-family: 'Kaushan Script', cursive;
@@ -23,7 +23,6 @@
 .Pres-Banner{
     width: 100%;
     border-radius: 3px;
-    border: 2px solid #708e5a;
 }
 .Pres-Lambi{
   width: 8%;
