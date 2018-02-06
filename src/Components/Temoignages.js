@@ -34,15 +34,15 @@ class Temoignages extends Component {
     let constante =
       this.state.data.map((el,index)=>{
         return(
-
-          <div key={index} className="Wit-Grandcontainer">
+          <div className="Temt" key={index}>
+          <div  className="Wit-Grandcontainer">
           <div className="Container-img"><img src={(el.element.image)}  className="Wit-app" alt="portrait"/></div>
           
         <div className="textTemoignage">
           <p className="Wit-text"><strong>{el.element.nom}</strong></p>         
           <p className="Wit-textN">{el.element.texte}</p></div>
           </div>
-        
+          </div>
            
            
          
