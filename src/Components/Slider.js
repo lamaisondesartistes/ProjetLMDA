@@ -10,6 +10,17 @@ import Slide6 from '../Images/ISlid6.png';
 import Slide8 from '../Images/ISlid8.png';
 import Slide7 from '../Images/ISlid7.png';
 
+const data=[
+  {myImg: Slide1},
+  {myImg: Slide2},
+  {myImg: Slide3},
+  {myImg: Slide4},
+  {myImg: Slide5},
+  {myImg: Slide6},
+  {myImg: Slide7},
+  {myImg: Slide8},
+]
+
 class Rick extends Component {
     render() {
         const settings = {
@@ -45,16 +56,13 @@ class Rick extends Component {
         return (
         <div>
           <h3 className="sliderCo" ><strong>Partenaire</strong></h3>
-        <Slidero {...settings} className="sliderCoponent ImgModif" >
-                        
-            <div><img className="sliderCoponentImg" src={Slide2} alt="partenaire slide" /></div>
-            <div><img className="sliderCoponentImg" src={Slide4} alt="partenaire slide" /></div>           
-            <div><img className="sliderCoponentImg" src={Slide3} alt="partenaire slide" /></div>
-            <div><img className="sliderCoponentImg" src={Slide7} alt="partenaire slide" /></div>
-            <div><img className="sliderCoponentImg" src={Slide1} alt="partenaire slide" /></div>            
-            <div><img className="sliderCoponentImg" src={Slide5} alt="partenaire slide" /></div>
-            <div><img className="sliderCoponentImg" src={Slide8} alt="partenaire slide" /></div>
-            <div><img className="sliderCoponentImg" src={Slide6} alt="partenaire slide" /></div>
+        <Slidero {...settings} className="sliderCoponent" >
+
+          {data.map((el, i)=>{
+            return(
+              <li key={i}><img className="sliderCoponentImg" src={el.myImg} alt="Images slider"/></li>
+            );
+          } ) }
             
           </Slidero>
           </div>
