@@ -1,5 +1,5 @@
 	.contenu{
-  	height:120px;
+  	height:80px;
     color: white;
 font-size:18px;
 	display:flex;
@@ -28,7 +28,7 @@ font-size:18px;
 	
 	}
 	.icon.social {
-		color:maroon;
+		color:rgb(0, 0, 0);
 		cursor: pointer;
 		display:flex;
 			transition: 0.5s;
