@@ -1,23 +1,49 @@
 .Pres-Container{
-  padding: 5%;
+  padding: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #FAFAFA;
 }
 .Pres-Back{
   width: 70%;
-  background-color:#708e5a;
-  padding: 2%;
+  padding-bottom: 5%;
 }
 .Pres-Title{
   font-family: 'Kaushan Script', cursive;
-  color: white;
+  color: black;
+  font-size: 3em;
+}
+.Pres-Title:nth-last-child(1n){
+  padding-top: 3%;
 }
 .Pres-Content{
-  font-size: 80%;
+  font-size: 1em;
   font-family: 'Quicksand', sans-serif;
-  color: white;
+  color: black;
 }
 .Pres-Banner{
-  width: 100%;
+    width: 100%;
+    border-radius: 3px;
+}
+.Pres-Lambi{
+  width: 8%;
+  position: absolute;
+  padding-left: 2%;
+  background-color: #708e5a;
+  border-radius: 100%;
+  border: 10px solid #FAFAFA;
+}
+.Pres-LambiContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+  width: 70%;
+  height: 0;
+}
+.Pres-traitContainer{
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAFA;
 }
