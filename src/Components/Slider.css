@@ -1,19 +1,17 @@
 /* -------------------------------  */
 
 .sliderCoponent{
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+
+
 }
 .sliderCoponentImg{
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 80%;
-  width: 50%;
+  height: 77px;
+  width: 75px;
+  margin-left: 38%;
 }
-.Leslo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 70px;
-  height: 80px;
-}
+
 /* -------------------------------  */
