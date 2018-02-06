@@ -1,13 +1,14 @@
-body {
-  font-family: 'Kaushan Script', cursive;
-}
-
 .BoxContainer {
   padding: 20px 20px 20px 20px;
 }
 
 .legendContactC {
+  font-family: 'Kaushan Script', cursive;
   text-decoration: underline;
+}
+
+.StylePol {
+  font-family: 'Kaushan Script', cursive;
 }
 
 #legendContact {
@@ -15,7 +16,7 @@ body {
 }
 
 .container-contact {
-  width: 95vw;
+  width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -31,7 +32,6 @@ body {
 
 .Contact {
   display: flex;
-  background-color: #fafafa;
   width: 55%;
 }
 
@@ -42,13 +42,15 @@ body {
 
 .Mapping {
   position: relative;
-  top: 140px;
+  border-radius: 3px;
+  top: 131px;
   width: 40vw;
-  height: 700px;
+  height: 555px;
   border: 2px solid #659660;
 }
 
 .pictureContact {
+  font-family: 'Kaushan Script', cursive;
   width: 100%;
   height: 10%;
   display: flex;
@@ -78,9 +80,6 @@ body {
     justify-content: center;
     align-content: center;
   }
-  .BoxContainer {
-    padding: 20px 20px 20px 20px;
-  }
   .Contact {
     justify-content: center;
     align-content: center;
@@ -90,6 +89,7 @@ body {
   .div-iframe-contact {
     display: flex;
     justify-content: center;
+    width: 100%;
   }
   .Mapping {
     margin-left: auto;

@@ -9,9 +9,9 @@ class Contact extends Component {
                     <h1 className="contactText">Contact-Us</h1>
                 </div>
                 <h2 className="legendContactC">Renseignements</h2>
-                <p><i className="fa fa-home" aria-hidden="true"></i><b> Adresse : La Maison des Artistes,<br /> lycée Hyacinth Bastaraud Rue de la Savane <br />BP 18 97112 Grand-Bourg</b></p>
-                <p><i className="fa fa-envelope" aria-hidden="true"></i><b> Email : lamaisondesartistesmg@gmail.com </b></p>
-                <p><i className="fa fa-phone" aria-hidden="true"></i><b> N° de téléphone : 0690 .981.018 </b></p>
+                <p><i className="fa fa-home" aria-hidden="true"></i><b className="StylePol"> Adresse : </b>La Maison des Artistes,<br /> lycée Hyacinth Bastaraud Rue de la Savane <br />BP 18 97112 Grand-Bourg</p>
+                <p><i className="fa fa-envelope" aria-hidden="true"></i><b className="StylePol"> Email :</b> lamaisondesartistesmg@gmail.com</p>
+                <p><i className="fa fa-phone" aria-hidden="true"></i><b className="StylePol" > N° de téléphone :</b> 0690 .981.018</p>
                 <div className="container-contact">
                     <div className="Contact">
                         <p className="TextLorem">
