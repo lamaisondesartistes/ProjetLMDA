@@ -53,6 +53,7 @@ class Rick extends Component {
                   }
                 } ]
           };
+          
         return (
         <div>
           <h3 className="sliderCo" ><strong>Partenaire</strong></h3>
