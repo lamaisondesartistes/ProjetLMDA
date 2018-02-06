@@ -85,7 +85,6 @@ class App extends Component {
             : null
         }
         <div className="ImageNature">
-          <img src={TestImage} alt="Nature" className="Imageuh" />
           <p className="TextAlignCenter">Nos Produits</p>
         </div>
         <ul id="Cards-container">
