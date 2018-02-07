@@ -30,8 +30,6 @@ class Rick extends Component {
             slidesToShow: 5,
             slidesToScroll: 1,
             autoplay : true,
-            dots: true,
-            autoplay: true,
             autoplaySpeed: 5000,
             responsive: [   {
                   breakpoint: 1024,
@@ -60,7 +58,7 @@ class Rick extends Component {
         <Slidero {...settings} className="sliderCoponent" >
           {data.map((el, i)=>{
             return(
-              <li key={i}><img className="sliderCoponentImg" src={el.myImg} alt="Images slider"/></li>
+              <li className="slidCopo" key={i}><img className="sliderCoponentImg" src={el.myImg} alt="Images slider"/></li>
             );
           } ) }            
           </Slidero>
