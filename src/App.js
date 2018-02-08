@@ -5,7 +5,7 @@ import Header from './Header';
 import Accueil  from './Components/Accueil';
 import Createurs from './Components/Createurs';
 import Presentation from './Components/Presentation';
-import Produits from './Components/Produits';
+import Ateliers from './Components/Ateliers';
 import Contact from './Components/Contact';
 import NotFound from './Components/Notfound';
 import MentionsLégales from './Components/Mentionslegal';
@@ -23,7 +23,7 @@ class App extends Component {
           <Route exact path="/Accueil" component={Accueil} />
           <Route exact path="/Createurs" component={Createurs} />
           <Route exact path="/Presentation" component={Presentation}/>
-          <Route exact path="/Produits" component={Produits} />
+          <Route exact path="/Ateliers" component={Ateliers} />
           <Route exact path="/Contact" component={Contact} />
           <Route path="/Mentionslegales" component={Mentionslegal}/>
           <Route component={NotFound} />
