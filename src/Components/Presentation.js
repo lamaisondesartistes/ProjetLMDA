@@ -71,7 +71,7 @@ actuelles et futures.</p>
                     charrette pour la découverte de la nature Espace d’exposition, Manifestations culturelles
                     <br/>
                     <br/>
-                    • <strong>CREATION D’ACTIVITES TOURISTIQUES</strong> : Exposition: information et vente Office du tourisme
+                    • <strong>CREATION D’ACTIVITES TOURISTIQUES</strong> : Exposition: informations et ventes Office du tourisme
                     • <strong>CREATION D’ACTIVITES DE LOISIRS</strong> : Péri scolarité, Ateliers variés, Animations diverses</p>
                 </div>
             </div>
