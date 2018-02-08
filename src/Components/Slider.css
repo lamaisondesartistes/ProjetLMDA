@@ -5,7 +5,7 @@
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
-  width: 95%;
+  width: 96%
 }
 .sliderCoponentImg{
   height: 77px;
@@ -18,5 +18,11 @@
 }
 .sliderCopo{
   list-style: none;
+}
+.slick-arrow{
+  display: none;
+}
+.slick-next{
+  display: none;
 }
 /* -------------------------------  */
