@@ -10,7 +10,7 @@
 .sliderCoponentImg{
   height: 77px;
   width: 75px;
-  margin-left: 38%;
+  margin-left: 45%;
 }
 .sliderCo{
   display: flex;
@@ -20,9 +20,9 @@
   list-style: none;
 }
 .slick-arrow{
-  display: none;
+  display: none !important;
 }
 .slick-next{
-  display: none;
+  display: none !important;
 }
 /* -------------------------------  */
