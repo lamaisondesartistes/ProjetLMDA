@@ -5,6 +5,7 @@
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
+  width: 96%
 }
 .sliderCoponentImg{
   height: 77px;
@@ -15,7 +16,13 @@
   display: flex;
   justify-content: center;
 }
-.tic{
-  display: flex;
+.sliderCopo{
+  list-style: none;
+}
+.slick-arrow{
+  display: none;
+}
+.slick-next{
+  display: none;
 }
 /* -------------------------------  */
