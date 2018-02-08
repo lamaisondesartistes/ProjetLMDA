@@ -9,6 +9,7 @@ import './Slider.css';
 import Temoignages from './Temoignages';
 import Footer from './Footer';
 
+
 class Accueil extends Component {
     render() {
         return (
