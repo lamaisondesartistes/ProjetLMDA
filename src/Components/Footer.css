@@ -1,12 +1,15 @@
 	.contenu{
-  	height:80px;
+  	height:70px;
     color: white;
 font-size:18px;
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
 	background-color:#009012;
-  }
+	}
+	.color{
+	color:white;
+	}
   
   .container2{
     background-color:rgb(0, 0, 0);
@@ -16,13 +19,14 @@ font-size:18px;
 
   }
   .container{
-    border-top: 1px dashed lightgreen;
+						 border-top: 1px solid rgb(0, 0, 0);
+			 border-bottom: 1px solid rgb(0, 0, 0);
     background-color:#009012;
     color: white;
-    justify-content:space-around;
+		justify-content:space-around;
   }
 	.container, .container2{
-	height:33px;
+	height:auto;
 	display:flex;
 	align-items:center;
 	
@@ -50,8 +54,7 @@ font-size:18px;
 	.social:hover{
 		background-color: white;
   } 
-  
-  .container span{
+    .container span{
     padding: 5px 20px;
   }
 
@@ -81,11 +84,12 @@ font-size:18px;
 		}
 
 	.container{
+		border-top:1px;
 		height: auto;
 		display: flex;
 		/*flex-direction: column;*/
 		flex-wrap: wrap;
-		padding: 5px;
+				padding: 15px;
 	}
 	.container2{
 		display: flex;

@@ -60,15 +60,20 @@ class App extends Component {
     return (
 
       <div id="App">
-        
+        <p className="TextLoremH">Marie-galante est riche de productions locales et de
+        traditions ancrées dans le patrimoine. Par conséquent LA MAISON DES ARTISTES se fera un
+        plaisir de contribuer à leur valorisation ainsi qu’à leur promotion, à travers toutes nos
+        créations.
+      </p>
+
         {
           modalVisibility ?
 
             <div id="modal-container" onClick={this.hideModal}>
-              <div id="creatorprofile" onClick={e=>{
+              <div id="creatorprofile" onClick={e => {
                 e.stopPropagation();
               }  // Do something
-            }>
+              }>
                 <img className="creatorpp" src={products[this.state.nbr].url} alt={products[this.state.nbr].nom} />
                 <div id="creatorinfo">
                   <h1>{products[this.state.nbr].nom}</h1>
@@ -82,7 +87,6 @@ class App extends Component {
             : null
         }
         <div className="ImageNature">
-          <img src={TestImage} alt="Nature" className="Imageuh"/>
           <p className="TextAlignCenter">Nos Produits</p>
         </div>
         <ul id="Cards-container">

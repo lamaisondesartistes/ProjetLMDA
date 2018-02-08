@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import './Footer.css';
 
 class Footer extends Component {
@@ -17,18 +19,18 @@ class Footer extends Component {
                     </div>
                 </footer>
                 <div className="container">
-                    <span>Accueil</span>
-                    <span>Presentation</span>
-                    <span>Atelier</span>
-                    <span>Createur</span>
-                    <span>Contact</span>
+                    <NavLink to="/Accueil" className="color">Accueil</NavLink>
+                    <NavLink to="/Presentation" className="color">Presentation</NavLink>
+                    <NavLink to="/Produits" className="color">Produits</NavLink>
+                    <NavLink to="/Createurs" className="color">Createurs</NavLink>
+                    <NavLink to="/Contact" className="color">Contact</NavLink>
                 </div>
                 <div className="container2">
                     <div>
-                        <p>Made with <i class="fa fa-heart"></i> by Simplon MG </p>
+                        <p>Made with <i className="fa fa-heart"></i> by Simplon MG </p>
                     </div>
                     <div>
-                        <p>Mention Légale <i className="fa fa-arrow-right" ></i></p>
+                        <NavLink to="/MentionsLegales" className="color">MentionsLégales</NavLink> <i className="fa fa-arrow-right" ></i>
                     </div>
 
                 </div>
