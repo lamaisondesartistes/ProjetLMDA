@@ -10,7 +10,7 @@ class Footer extends Component {
         return (
             <div className="Footer">
                 <footer className="contenu">
-                    <div className="home"><i className="fa fa-home" aria-hidden="true"> LaMaisondesArtistes@gmail.com </i></div>
+                    <div className="home"><i className="fa fa-home" aria-hidden="true">lamaisondesartistesmg@gmail.com</i></div>
                     <div className="call"><i className="fa fa-phone" aria-hidden="true"> 0590 97 90 42</i></div>
                     <div className="alignement">
                         <div className='icon social fb'><i className='fa fa-facebook'></i></div>
