@@ -21,7 +21,8 @@ class App extends Component {
     <div style={divStyle}>
         <h1 id="TitreLmda">La Maison Des Artistes</h1>
         <p id="SousTitreLmda">" Rien ne se perd, tout se transforme... "<br/>
-        Antoine Laurent de Lavoisier</p>
+        </p>
+        <p className="Jumbo-Author">Antoine Laurent de Lavoisier</p>
     </div>
     <img src={lambi} alt="conque à lambi" className="imgLMDA"/>
     <h1>QUI SOMMES-NOUS ?</h1>
