@@ -5,28 +5,37 @@ body {
   background-color: #fbfffa;
 }
 
-.Header {
+.Header{
+  background:url(http://img4.hostingpics.net/pics/91288211o4.png);
+  background-repeat:no-repeat;
+  background-size:100vw 100%; 
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   font-family: 'commic sans ms';
 }
 
-.Langues {
-  height: 30px;
+.containerReseaux{
+  display: flex;
+  justify-content:flex-end;
+  height: 50px;
+}
+.Reseaux{
+  height: 50px;
+  align-items: center;
   display: flex;
   justify-content: flex-end;
-  list-style: none;
-  font-family: 'Archivo Black';
+
 }
 
-.ListeLangues {
-  background-color: rgba(39, 92, 4, 0.452);
-  color: rgb(255, 255, 255);
-  padding: 5px;
-  cursor: pointer;
-  border-radius: 50%;
-  margin: 0 5px;
+.iconReseaux{
+border-radius: 50%;
+padding: 7px;
+background-color:rgba(23, 133, 1, 0.493);
+cursor: pointer;
+ color:rgba(255, 255, 255, 0.911);
+display: inline-block;
+margin: 0 5px;
 }
 
 .divLMDA {
@@ -36,7 +45,7 @@ body {
 
 .LMDA {
   width: auto;
-  height: 200px;
+  height: 150px;
 }
 
 .divLiens {
@@ -67,6 +76,11 @@ body {
   color: rgb(255, 253, 253);
   background-color: rgba(35, 83, 2, 0.644);
 }
+.Reseaux :hover{
+  color :rgba(13, 71, 3, 0.973);
+  background-color: #fffafa;
+}
+
 
 @media all and (min-width: 640px) and (max-width:1024px) {
   body {
