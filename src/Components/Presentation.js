@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
 import './Presentation.css';
-import paysage from '../Images/paysage.jpg';
 import lambi from '../Images/lambi(blanc).png';
 import paysage1 from '../Images/nouveau_paysage.png';
 import paysage2 from '../Images/photoLMDA(rogne).jpg'
