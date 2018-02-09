@@ -1,0 +1,154 @@
+[33mcommit f2a610102e1568539140f51380ef8e3ac1cd8c7c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mdevEvinymBrLMDA[m[33m)[m
+Author: Evinym <Evinym@outlook.fr>
+Date:   Mon Feb 5 03:10:13 2018 -0400
+
+    alleviate code
+
+[33mcommit e8a40c756d2b8e685d49e97ed519042900a2a7e5[m
+Author: Evinym <Evinym@outlook.fr>
+Date:   Mon Feb 5 03:03:43 2018 -0400
+
+    code alleviate and modified site disposition
+
+[33mcommit 231a9bc151a1ffad6c9960e38055987a29fd76fd[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: c458861 876febd
+Author: boris-pozzo <boris.pozzo@gmail.com>
+Date:   Thu Feb 1 20:25:05 2018 -0400
+
+    Merge pull request #7 from yveschristophe/master
+    
+    modif on presentation
+
+[33mcommit 876febd55a462eeb380727c5bd470f6ac2bb7b0d[m
+Author: yveschristophe <saban.yveschristophe@gmail.com>
+Date:   Thu Feb 1 17:11:28 2018 -0400
+
+    modif on presentation
+
+[33mcommit c458861340d2d5fe983d1228be8d3b87e16c7b93[m
+Merge: c6db8df c8ae68a
+Author: boris-pozzo <boris.pozzo@gmail.com>
+Date:   Thu Feb 1 15:26:01 2018 -0400
+
+    Merge pull request #3 from lamaisondesartistes/produit
+    
+    Part of product
+
+[33mcommit c8ae68a07f16b91446cf54eedae115674f8f5573[m
+Merge: 1d62f1a c6db8df
+Author: boris-pozzo <boris.pozzo@gmail.com>
+Date:   Thu Feb 1 15:25:44 2018 -0400
+
+    Merge branch 'master' into produit
+
+[33mcommit 1d62f1a4a98a2d86a736e49a21d0c3f9d57276e0[m
+Author: Kenpachi971 <mrcapharsie.m@gmail.com>
+Date:   Thu Feb 1 15:04:44 2018 -0400
+
+    Part of product
+
+[33mcommit c6db8dff8e273b91e7a381312b60f1c1f1ca0902[m
+Merge: d9d479e 39a9ee6
+Author: boris-pozzo <boris.pozzo@gmail.com>
+Date:   Wed Jan 31 12:00:07 2018 -0400
+
+    Merge pull request #2 from lamaisondesartistes/modif-jumbo
+    
+    design jumbotron
+
+[33mcommit 39a9ee6896b0c6f37a07ae404b851edc44f65525[m
+Author: yvygalanx <saban.yveschristophe@gmail.com>
+Date:   Wed Jan 31 16:50:56 2018 +0100
+
+    design jumbotron
+
+[33mcommit d9d479e56de8c880fe748f8dc712e02ad95547c9[m
+Merge: 12029b1 8b38a19
+Author: leevan97112 <leevan.s97112@gmail.com>
+Date:   Thu Jan 25 15:13:10 2018 -0400
+
+    Merge branch 'master' of github.com:lamaisondesartistes/ProjetLMDA
+
+[33mcommit 8b38a198d09b76ee3fd335e523b255e29b08b37c[m
+Author: Evinym <Evinym@outlook.fr>
+Date:   Thu Jan 25 15:08:22 2018 -0400
+
+    correct presentation page
+
+[33mcommit ccb5c96073b6ac91dd6993711f0d9f36956afed9[m
+Author: Evinym <Evinym@outlook.fr>
+Date:   Thu Jan 25 14:38:32 2018 -0400
+
+    prensentation modified
+
+[33mcommit 12029b1dbbe0ad6df8f715359c2a061509dcc4ad[m
+Author: leevan97112 <leevan.s97112@gmail.com>
+Date:   Thu Jan 25 14:16:59 2018 -0400
+
+    Add Contact page
+
+[33mcommit d9c30db5ee08f8a3691ed1258e88e0efc56aafd9[m
+Author: GauthierGinier <gauthier.ginier@gmail.com>
+Date:   Tue Jan 23 16:36:57 2018 -0400
+
+    suppression des langues
+
+[33mcommit 6259e6abbd06b2976815252b8d101cffd2b3b941[m
+Author: GauthierGinier <gauthier.ginier@gmail.com>
+Date:   Tue Jan 23 15:57:03 2018 -0400
+
+    background color uniformisé sur le gris du header de Karlito
+
+[33mcommit 1130484cdfaf2cbc1489e06f728a14b1962f823c[m
+Author: GauthierGinier <gauthier.ginier@gmail.com>
+Date:   Tue Jan 23 15:50:24 2018 -0400
+
+    recification Accueil
+
+[33mcommit e11b75409a6e8cc96f21deea6437c568f5b7c8be[m
+Author: GauthierGinier <gauthier.ginier@gmail.com>
+Date:   Tue Jan 23 11:51:53 2018 -0400
+
+    correction bug CSS Lucien
+
+[33mcommit 2116b7dc9977aa409b5aeeabbc475d7a312c8e24[m
+Author: denysl152 <chabinlouves199@gmail.com>
+Date:   Fri Jan 19 15:14:29 2018 -0400
+
+    add LegalNotices
+
+[33mcommit b07c7ae8410e5caa8b6561aebb4ec4c24c6c294e[m
+Author: Evinym <Evinym@outlook.fr>
+Date:   Fri Jan 19 14:35:27 2018 -0400
+
+    add 404  page
+
+[33mcommit cdd6dc76791edf98aa6bf7da96576b71b26f74ad[m
+Author: GauthierGinier <gauthier.ginier@gmail.com>
+Date:   Fri Jan 19 12:08:51 2018 -0400
+
+    ajout produit
+
+[33mcommit 21fb6d7b5f72552e6e92c7cd6b8b01e1f7524822[m
+Author: Shan971 <stonixkxf@gmail;com>
+Date:   Fri Jan 19 16:49:15 2018 +0100
+
+    add footer
+
+[33mcommit e82b3687b4bffb9a8445dfb572e8bf65c5edea94[m
+Author: yvygalanx <saban.yveschristophe@gmail.com>
+Date:   Fri Jan 19 16:25:28 2018 +0100
+
+    Witness
+
+[33mcommit 4f607d9d26e44e6244734171b909fb22bfb60463[m
+Author: RiinaYoyo <yoann.forthulman@gmail.com>
+Date:   Fri Jan 19 10:41:11 2018 -0400
+
+    Add products and slider
+
+[33mcommit 5a394e8da7daed37435a6defaac862535da4cf7d[m
+Author: Kenpachi971 <mrcapharsie.m@gmail.com>
+Date:   Fri Jan 19 10:15:05 2018 -0400
+
+    Jumbotron

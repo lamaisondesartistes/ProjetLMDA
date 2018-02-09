@@ -7,55 +7,52 @@ class Temoignages extends Component {
         texte:"",
         data:[{
           element:{
-            image:"https://i.pinimg.com/736x/cf/3a/77/cf3a773eff877097c28f8afe6c1ce1ed--uconn-huskies-wnba.jpg",
-            texte:"Everyday, I say 'Why Not'. ",
-            nom:"Sue Bird"
+            image:"./images/img.png",
+            nom:" PERATOU Katussia ",
+            texte:"\" Travailler au sein de cette entreprise me permet de découvrir et de vaincre les réticences vis-à-vis de la création d'entreprise. \" ",
           }
         },
         {
          element:{
-          image:"https://i.eurosport.com/2018/01/19/2248880-46876399-640-360.jpg",
-          texte:"Vamos. ",
-          nom:"Rafael Nadal"
+          image:"./images/img.png",
+          nom:" THOMAS Medhi ",
+          texte:"\" Dans cette entreprise, mon travail est valorisé, ce qui fait émerger en moi une double motivation.\""
         }
       },
       {
         element:{
-        image:"https://i.eurosport.com/2018/01/19/2248880-46876399-640-360.jpg",
-        texte:"This why we play. ",
-        nom:"Kyrie Irving"
-        }
+          image:"./images/img.png",
+          nom:" FARGEAU Marielle ",
+          texte:"\" Grâce à La Maison Des Artistes, j'ai récupéré des repères liés au monde du travail.\""
+        
       }
-
-      ]
-
-      }
-      afficher = () =>{
-        this.setState({
-
-        })
-      }
-
+    }
+   
+  ],
+    }
   render() {
     let constante =
       this.state.data.map((el,index)=>{
         return(
-
-          <div key={index} className="Wit-Grandcontainer">
-          <div className="Wit-texteCache" onClick={this.afficher}>
-            <em className="Wit-text"> {el.element.texte}&nbsp;</em>
-            <p><strong> {el.element.nom}</strong></p>
+          <div className="Temt" key={index}>
+          <div  className="Wit-Grandcontainer">
+          <div className="Container-img"><img src={(el.element.image)}  className="Wit-app" alt="portrait"/></div>
+          
+        <div className="textTemoignage">
+          <p className="Wit-text"><strong>{el.element.nom}</strong></p>         
+          <p className="Wit-textN">{el.element.texte}</p></div>
           </div>
-            <img src={(el.element.image)} className="Wit-app" alt="portrait"/>
-            <p>{el.text}</p>
-
           </div>
+           
+           
+         
+        
         )
 
     });
     return (
-      <div>
-        <h1>Temoignages</h1>
+      <div className="TemoiTitle">
+        <h2 className='Temoitext'><b>Témoignages</b></h2>
       <div className="Wit-container">
 
        {constante}
@@ -63,6 +60,7 @@ class Temoignages extends Component {
     </div>
     );
   }
-}
+  
+  }
 
 export default Temoignages;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from './Footer';
 import img from '../Images/PP.jpg';
 
 const creators = [
@@ -89,14 +90,18 @@ class Createurs extends Component {
     return (
 
       <div id="App">
+        <p className="TextLoremH">"J’ai été initié au développement durable. Cela me plaît. De
+plus, j’ai développé des talents artistiques et un esprit de créativité méconnu à
+la base."
+        </p>
         {
           modalVisibility ?
 
             <div id="modal-container" onClick={this.hideModal}>
-              <div id="creatorprofile" onClick={e=>{
+              <div id="creatorprofile" onClick={e => {
                 e.stopPropagation();
               }  // Do something
-            }>
+              }>
                 <img className="creatorpp" src={creators[this.state.nbr].url} alt={creators[this.state.nbr].nom} />
                 <div id="creatorinfo">
                   <h1>{creators[this.state.nbr].nom}</h1>
@@ -116,6 +121,7 @@ class Createurs extends Component {
             )
           })}
         </ul>
+        <Footer/>
       </div>
     );
   }
