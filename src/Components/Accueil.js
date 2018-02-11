@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react';
 import Jumbojs from '../Components/Jumbotron.js';
-import Jumbocss from '../Components/Jumbotron.css';
 import Cards from './Cards';
 import './CardProduit.css';
 import Slider from './Slider';
