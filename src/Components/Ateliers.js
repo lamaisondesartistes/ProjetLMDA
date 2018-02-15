@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
-import TestImage from '../Images/contact3.jpg';
 
 const products = [
   {

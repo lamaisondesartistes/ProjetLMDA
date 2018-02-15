@@ -235,6 +235,7 @@ margin: 0 5px;
   overflow: hidden;
   transition: linear 0.2s;
   border-radius: 3px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .Cards:hover {
@@ -495,6 +496,7 @@ margin: 0 5px;
   }
   #creatorprofile {
     display: flex;
+    font-family: 'Quicksand', sans-serif;
     -webkit-display: flex;
     flex-direction: row;
     justify-content: center;
@@ -520,7 +522,6 @@ margin: 0 5px;
   }
   #creatorinfo h1 {
     width: 299px;
-    font-family: helvetica;
     text-align: center;
   }
   #creatorinfo p {

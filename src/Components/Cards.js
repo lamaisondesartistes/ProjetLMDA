@@ -9,7 +9,6 @@ class Cards extends Component {
   render() {
     return (
       <div>
-        <h2 style={{textAlign:"center", marginTop:"40px"}}></h2>
         <div className="div-cards">
           <div className="DivOfTitle">
             <p className="TextOfDivOfTitle">ATELIERS</p>

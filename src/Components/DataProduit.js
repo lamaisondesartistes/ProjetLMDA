@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import IMG1 from "../Images/LMDA1.jpg"
 import IMG2 from "../Images/LMDA2.jpg"
 import IMG3 from "../Images/LMDA3.jpg"
