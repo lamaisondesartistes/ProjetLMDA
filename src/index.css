@@ -293,7 +293,7 @@ margin: 0 5px;
 
 #creatorinfo p {
   width: 360px;
-  text-align: center;
+  text-align: justify;
 }
 
 @media all and (max-width: 640px) {
@@ -518,6 +518,6 @@ margin: 0 5px;
   }
   #creatorinfo p {
     width: 299px;
-    text-align: center;
+    text-align: justify;
   }
 }
