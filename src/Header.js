@@ -9,9 +9,9 @@ class Header extends Component {
             <div className="Header">
 
            <div className="Reseaux">
-            <div className="iconReseaux"><i class="fab fa-facebook" /></div>
-            <div className="iconReseaux"><i class="fab fa-instagram" /></div>
-            <div className="iconReseaux"><i class="fab fa-twitter" /></div>
+            <div className="iconReseaux"><i className="fab fa-facebook" /></div>
+            <div className="iconReseaux"><i className="fab fa-instagram" /></div>
+            <div className="iconReseaux"><i className="fab fa-twitter" /></div>
           </div>
             <div className="divLMDA">
             <NavLink to="/Accueil"><img src={LMDA} alt="logo" className="LMDA"/></NavLink>
