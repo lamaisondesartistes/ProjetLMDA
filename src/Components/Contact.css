@@ -118,4 +118,18 @@
   .Mapping {
     height: 700px;
   }
+  #legendContact {
+    text-align: center;
+    margin-bottom: 0%;
+  }
+}
+
+@media only screen and (max-width:1024px) {
+  #legendContact {
+    text-align: center;
+    margin-bottom: 70%;
+  }
+  .Mapping {
+    height: 650px;
+  }
 }
