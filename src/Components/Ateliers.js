@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
+import TestImage from '../Images/contact3.jpg';
+import Cards from './Cards';
+import './CardProduit.css';
 
 const products = [
   {
@@ -55,16 +58,21 @@ class App extends Component {
 
   render() {
 
+
     const { modalVisibility } = this.state;
     return (
 
+
       <div id="App">
-        <p className="TextLoremH">Marie-galante est riche de productions locales et de
+      <p className="TextLoremH">Marie-galante est riche de productions locales et de
         traditions ancrées dans le patrimoine. Par conséquent LA MAISON DES ARTISTES se fera un
         plaisir de contribuer à leur valorisation ainsi qu’à leur promotion, à travers toutes nos
         créations.
       </p>
-
+      <div className="DivOfTitle">
+            <p className="TextOfDivOfTitle">ATELIERS</p>
+      </div>
+      <Cards/>
         {
           modalVisibility ?
 
@@ -86,7 +94,7 @@ class App extends Component {
             : null
         }
         <div className="ImageNature">
-          <p className="TextAlignCenter">Nos Produits</p>
+          <p className="TextOfDivOfTitle">PRODUITS</p>
         </div>
         <ul id="Cards-container">
           {products.map((Card, i) => {
