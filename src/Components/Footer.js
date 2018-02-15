@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import './Footer.css';
 
 class Footer extends Component {
@@ -19,7 +18,7 @@ class Footer extends Component {
                     </div>
                 </footer>
                 <div className="container">
-                    <NavLink to="/Accueil" className="color">Accueil</NavLink>
+                    <NavLink to="/" className="color">Accueil</NavLink>
                     <NavLink to="/Presentation" className="color">Presentation</NavLink>
                     <NavLink to="/Produits" className="color">Produits</NavLink>
                     <NavLink to="/Createurs" className="color">Createurs</NavLink>
