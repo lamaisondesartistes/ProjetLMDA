@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
 import './Presentation.css';
-import paysage from '../Images/paysage.jpg';
 import lambi from '../Images/lambi(blanc).png';
 import paysage1 from '../Images/nouveau_paysage.png';
 import paysage2 from '../Images/photoLMDA(rogne).jpg'
@@ -71,7 +70,7 @@ actuelles et futures.</p>
                     charrette pour la découverte de la nature Espace d’exposition, Manifestations culturelles
                     <br/>
                     <br/>
-                    • <strong>CREATION D’ACTIVITES TOURISTIQUES</strong> : Exposition: information et vente Office du tourisme
+                    • <strong>CREATION D’ACTIVITES TOURISTIQUES</strong> : Exposition: informations et ventes Office du tourisme
                     • <strong>CREATION D’ACTIVITES DE LOISIRS</strong> : Péri scolarité, Ateliers variés, Animations diverses</p>
                 </div>
             </div>

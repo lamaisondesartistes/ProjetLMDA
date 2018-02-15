@@ -1,13 +1,13 @@
 
 import React, { Component } from 'react';
 import Jumbojs from '../Components/Jumbotron.js';
-import Jumbocss from '../Components/Jumbotron.css';
 import Cards from './Cards';
 import './CardProduit.css';
 import Slider from './Slider';
 import './Slider.css';
 import Temoignages from './Temoignages';
 import Footer from './Footer';
+
 
 class Accueil extends Component {
     render() {

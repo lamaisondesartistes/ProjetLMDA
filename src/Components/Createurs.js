@@ -4,65 +4,45 @@ import img from '../Images/PP.jpg';
 
 const creators = [
   {
-    url: './images/karl.png',
-    nom: 'Karl Macabre',
-    descri: 'Réalise de fulgurants progrès et rend très fier l\'équipe pédagogique.',
-    poste: 'BLUE SQUAD',
+    url: 'images/img.png',
+    nom: 'PERATOU CATUSSIA',
+    descri: 'Je suis la directrice de « La Maison Des Artistes », je fixe les objectifs de l’entreprise, j’organise et coordonne le travail. J’ai de la rigueur, de l’organisation et du charisme.',
+    poste: 'DIRECTRICE',
   }, {
-    url: 'images/gogo.png',
-    nom: 'Gauthier Ginier',
-    descri: 'Une vrai force de proposition et un leadership incontestable.',
-    poste: 'xxxxxxx',
+    url: 'images/img.png',
+    nom: 'FARGEOT MARIELLE',
+    descri: 'Je suis la sous directrice de « La Maison Des Artistes », j’assiste la directrice dans ses fonctions d’encadrement et gère les ateliers « formation ». J’ai de l’organisation, je suis opérationnelle et loyale.',
+    poste: 'SOUS DIRECTRICE',
   }, {
-    url: 'images/leevan.png',
-    nom: 'Leevan Cigiscar',
-    descri: 'Élève très impliqué et sérieux.',
-    poste: 'xxxxxxx',
+    url: 'images/img.png',
+    nom: 'LADREZEAU YANN',
+    descri: 'Je suis le responsable du pôle communication internet et réseaux sociaux.',
+    poste: 'RESPONSABLE COMMUNICATION',
   }, {
-    url: 'images/jo.png',
-    nom: 'Jonathan Castanet',
-    descri: 'Indispensable à la promotion, fait régner la joie et la bonne humeur.',
-    poste: 'xxxxxxx',
+    url: 'images/img.png',
+    nom: 'BRANDON DIMITRI',
+    descri: 'Je suis l’attaché de presse de « La Maison Des Artistes », je suis chargé de la communication orale et écrite de l’entreprise avec les différentes presses. Je suis littéraire, j’ai une aisance à la communication et je suis dynamique.',
+    poste: 'ATTACHE DE PRESSE',
   }, {
-    url: 'images/lulu.png',
-    nom: 'Lucien De Santana',
-    descri: 'Ramène des fruit lorsqu\'il nous fait l\'honneur de sa présence',
-    poste: 'SQUAAAAAAD',
+    url: 'images/img.png',
+    nom: 'LADREZEAU LAURY',
+    descri: 'Je suis le responsable du pôle achat vente de « La Maison Des Artistes ». Je gère les achats et les ventes, je tiens à jour les documents comptables, je travaille en étroite collaboration avec les pôles production et commercialisation. Je suis intègre, organisé et j’ai un niveau en math assez correct.',
+    poste: 'RESPONSABLE ACHAT-VENTE',
   }, {
-    url: 'images/yc.png',
-    nom: 'Yves-christophe',
-    descri: 'This nigga pull up on ur CSS bro! For real.',
-    poste: 'DESIGNER',
+    url: 'images/img.png',
+    nom: 'THOMAS MEDHY',
+    descri: 'Je suis le responsable du pôle production 1 de « La Maison Des Artistes ». Je gère la production quantitativement et qualitativement, je fixe le prix des produits fabriquésJe suis créatif, minutieux et productif.',
+    poste: 'RESPONSABLE PRODUCTION',
   }, {
-    url: 'images/mm.png',
-    nom: 'Marie-Marthe',
-    descri: 'Une vrai force de proposition et un leadership incontestable.',
-    poste: 'xxxxxxx',
+    url: 'images/img.png',
+    nom: 'SELBONNE MARVIN',
+    descri: 'Je suis le second responsable du pôle production de « La Maison Des Artistes ».  Je gère la production quantitativement et qualitativement, je fixe le prix des produits fabriqués.',
+    poste: 'RESPONSABLE PRODUCTION',
   }, {
-    url: 'images/shun.png',
-    nom: 'Shen Chapoullie',
-    descri: 'Une vrai force de proposition et un leadership incontestable.',
-    poste: 'xxxxxxx',
-  }, {
-    url: 'images/shun.png',
-    nom: 'Shen Chapoullie',
-    descri: 'Une vrai force de proposition et un leadership incontestable.',
-    poste: 'xxxxxxx',
-  }, {
-    url: 'images/shun.png',
-    nom: 'Shen Chapoullie',
-    descri: 'Une vrai force de proposition et un leadership incontestable.',
-    poste: 'xxxxxxx',
-  }, {
-    url: 'images/shun.png',
-    nom: 'Shen Chapoullie',
-    descri: 'Une vrai force de proposition et un leadership incontestable.',
-    poste: 'xxxxxxx',
-  }, {
-    url: 'images/shun.png',
-    nom: 'Shen Chapoullie',
-    descri: 'Une vrai force de proposition et un leadership incontestable.',
-    poste: 'xxxxxxx',
+    url: 'images/img.png',
+    nom: 'CHAVEZ DA SILVA KARIM',
+    descri: 'Je suis le responsable du pôle commerciale de « La Maison Des Artistes ». J’organise la distribution, gère la commercialisation et le taux de satisfaction du client.Je suis vendeur, dynamique et passionné..',
+    poste: 'RESPONSABLE COMMERCIALE',
   },];
 class Createurs extends Component {
   state = {
@@ -90,14 +70,18 @@ class Createurs extends Component {
     return (
 
       <div id="App">
+        <p className="TextLoremH">"J’ai été initié au développement durable. Cela me plaît. De
+plus, j’ai développé des talents artistiques et un esprit de créativité méconnu à
+la base."
+        </p>
         {
           modalVisibility ?
 
             <div id="modal-container" onClick={this.hideModal}>
-              <div id="creatorprofile" onClick={e=>{
+              <div id="creatorprofile" onClick={e => {
                 e.stopPropagation();
               }  // Do something
-            }>
+              }>
                 <img className="creatorpp" src={creators[this.state.nbr].url} alt={creators[this.state.nbr].nom} />
                 <div id="creatorinfo">
                   <h1>{creators[this.state.nbr].nom}</h1>

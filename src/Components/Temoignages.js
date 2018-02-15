@@ -7,21 +7,21 @@ class Temoignages extends Component {
         texte:"",
         data:[{
           element:{
-            image:"./images/leevan.png",
+            image:"./images/img.png",
             nom:" PERATOU Katussia ",
             texte:"\" Travailler au sein de cette entreprise me permet de découvrir et de vaincre les réticences vis-à-vis de la création d'entreprise. \" ",
           }
         },
         {
          element:{
-          image:"./images/karl.png",
+          image:"./images/img.png",
           nom:" THOMAS Medhi ",
           texte:"\" Dans cette entreprise, mon travail est valorisé, ce qui fait émerger en moi une double motivation.\""
         }
       },
       {
         element:{
-          image:"./images/gogo.png",
+          image:"./images/img.png",
           nom:" FARGEAU Marielle ",
           texte:"\" Grâce à La Maison Des Artistes, j'ai récupéré des repères liés au monde du travail.\""
         

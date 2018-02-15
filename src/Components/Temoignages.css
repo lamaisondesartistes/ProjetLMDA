@@ -7,6 +7,9 @@
 
 
 }
+.Temoitext{
+  font-family: 'Kaushan Script', cursive;
+}
 .Wit-Grandcontainer{
   height: auto;
   padding: 15px 0px;
@@ -110,4 +113,7 @@ margin: 2px;
 }
  @media only screen and (min-device-width : 640px) and (max-device-width : 1024px){
 
+}
+.temoiText{
+  font-family: 'Kaushan Script', cursive;
 }
