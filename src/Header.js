@@ -17,7 +17,7 @@ class Header extends Component {
             <NavLink to="/Accueil"><img src={LMDA} alt="logo" className="LMDA"/></NavLink>
             </div>
             <div className="divLiens">
-                <NavLink to="/Accueil" className="Liens">ACCUEIL</NavLink>
+                <NavLink to="/" className="Liens">ACCUEIL</NavLink>
                 <NavLink to="/Presentation" className="Liens">PRESENTATION</NavLink>
                 <NavLink to="/Ateliers" className="Liens">ATELIERS</NavLink>
                 <NavLink to="/Createurs" className="Liens">CREATEURS</NavLink>
