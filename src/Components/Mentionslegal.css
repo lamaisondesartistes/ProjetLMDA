@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .Legal-Notice{
   width:100%;
@@ -11,6 +10,7 @@
   width:50%;
   height: auto;
 padding: 30px;
+font-family: 'Quiksand','sans-serif';
   display:flex;
   flex-direction: column;
   margin-left:10%;
@@ -18,6 +18,6 @@ padding: 30px;
 }
 .Title-lign{
   display: flex;
-  font-family: 'Montserrat', 'sans-serif';
+  font-family: 'Kaushian Script','cursive';
   justify-content:center;
 }
