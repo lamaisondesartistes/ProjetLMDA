@@ -6,7 +6,6 @@
 .boxCont {
   display: flex;
   flex-direction: column;
-
 }
 
 .legendContactC {
@@ -20,7 +19,7 @@
 
 #legendContact {
   text-align: center;
-  margin-bottom: 55%;
+  margin-bottom: 57%;
 }
 
 .contactText {
@@ -43,11 +42,12 @@
   position: relative;
   border-radius: 3px;
   width: 40vw;
-  height: 540px;
+  height: 550px;
   border: 2px solid #659660;
 }
 
 #TextLorem {
+  position: relative;
   background-color: #659660;
   padding: 5%;
   margin-bottom: 2%;
@@ -63,15 +63,31 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .BoxContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .div-iframe-contact {
+    width: 100%;
+  }
+  .Mapping {
+    width: 100%;
+    height: 350px;
+  }
+  .ContainerMap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #TextLorem {
+    margin-bottom: 0%;
+    width: 90%;
+  }
   /*For mobile phones: */
   #legendContact {
     text-align: center;
-  }
-
-  .container-contact {
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    margin-bottom: 0%;
   }
   .Contact {
     justify-content: center;
@@ -79,17 +95,27 @@
     width: 92vw;
     margin-bottom: 180px;
   }
-  .div-iframe-contact {
+  .BoxContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
+    align-items: center;
   }
-  .Mapping {
-    width: 100%;
-    height: 250px;
-  }
-
   .legendContactC {
     text-align: center;
+  }
+  #TextLorem {
+    margin-bottom: 0%;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 804px) and (max-width:1000px) {
+  #legendContact {
+    text-align: center;
+    margin-bottom: 90%;
+  }
+  .Mapping {
+    height: 700px;
   }
 }
