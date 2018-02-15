@@ -301,7 +301,7 @@ margin: 0 5px;
 
 #creatorinfo p {
   width: 360px;
-  text-align: center;
+  text-align: justify;
 }
 
 @media all and (max-width: 640px) {
@@ -496,7 +496,7 @@ margin: 0 5px;
   }
   #creatorprofile {
     display: flex;
-    font-family: 'Quicksand', sans-serif;
+
     -webkit-display: flex;
     flex-direction: row;
     justify-content: center;
@@ -526,6 +526,6 @@ margin: 0 5px;
   }
   #creatorinfo p {
     width: 299px;
-    text-align: center;
+    text-align: justify;
   }
 }
