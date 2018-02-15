@@ -1,24 +1,33 @@
+import IMG3 from "../Images/LMDA3.jpg"
+import IMG4 from "../Images/LMDA4.jpg"
+import IMG5 from "../Images/LMDA5.jpg"
+import nature from "../Images/pagelines.png"
+import graduation from "../Images/graduation-cap1.png"
+import leanpub from "../Images/leanpub1.png"
+
+
 var Produits=[
     {
-        src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxM_UFEXGo9378mjct-OnUboJy3-rcl7vkOpPYvnsuJ39jKLWK",
-        alt:"Table Post-Cuite",
-        nom:"Table Post-Cuite",
-        descr:"Tables pour l'apéro 100% fabriqués à partir de déchets récupérés à Marie-Galante par notre équipe avec amour après de sales cuites.",
-    }
-    ,{
-        src:"http://www.cocondedecoration.com/blog/wp-content/uploads/2015/03/idee-recup-jardin-mobilier-bobine-de-cable.jpg",
-        alt:"Fauteuil à Roue",
-        nom:"Fauteuil à Roue",
-        descr:"Un magnifique fauteuil faite en Roue de charettes.",
-    }
-    ,
+        src:IMG3,
+        alt:"Armoire a Palettes",
+        nom:"NATURE :",
+        icone:nature,
+        descr:"La nature joue un rôle vital dans le monde car elle nous fourni l'air requis afin de nous maintenir en vie. Elle nous protège et nous apporte un environnement sain, de l'eau, des matières premières. Nous utilisons cette même nature afin de construires divers choses..."
+    },
     {
-        src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRvoNMjFVNUr_r7Zy39Uh0SE6Xey_aevwZpey9BqHSyfJqDqnI",
-        alt:"Armoire à Palettes",
-        nom:"Armoire à Palettes",
-        descr:"Une magnifique Armoire faite en palette de Folle-Anse.",
+        src:IMG4,
+        alt:"Armoire a Palettes",
+        nom:"LYCEE :",
+        icone:graduation,
+        descr:"Le Lycée Hyacinthe Bastaraud est un établissement polyvalent public, mixte et laïque et contient un internat. Ce lycée propose divers activités tel que le Brevet d'Initiation Aéronautique, l'Union National du Sport Scolaire, la préparation du Test Of English for International Communication..."
+    },
+    {
+        src:IMG5,
+        alt:"Armoire a Palettes",
+        nom:"ENTREPRENDRE EN LYCEE :",
+        icone:leanpub,
+        descr:"L’opération « Entreprendre En Lycée » permet de combler le fossé culturel existant entre l’école et l’entreprise, en démystifiant l’acte d’entreprendre. Grâce à cela, elle favorise la curiosité des jeunes à fonder des entreprises dans le futur, elle donne la possibilité aux collègues de collaborer entre eux et elle souscrit la valorisation de l'établissement"
     }
-  
     
 ]
 

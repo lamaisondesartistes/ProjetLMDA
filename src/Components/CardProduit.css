@@ -1,49 +1,29 @@
-.TitreDeProduit{
-  font-weight: bold;
-  font-size: 2em;
-  color: rgb(255, 255, 255);
-}
-@media all and (min-width: 1350px){
-  .App {
-    text-align: center;
+@media all and (max-width: 1350px){
+  .Iconos{
+    padding-left: 47%;
+    height: 30px;
+    width: 30px;
+  }
+  .TextOfDivOfTitle{
+    text-align: center;   
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 1.5%;
+    margin-top: 2%;
+    padding-bottom: 1.5%;
   }
   .Card{
     height: 100%;
-    width: 300px;
+    width: 318px;
   }
   .imgProduit{
     width: 300px;
     height: 239px;
-    transition: linear 0.2s;
     border-radius: 2%;
   }
-  .imgProduit:hover {
-    background-color: rgba(0, 0, 0, 0.596);
-    background-blend-mode: multiply;
-    color: rgb(255, 250, 250);
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    width: 300px;
-    height: 239px;
-    opacity: 0.8;
-    font-size: 15px;
-    font-weight: 900;
-  }
-  .description-produit{
-    opacity: unset;
-    position: relative;
-    bottom: 250px;
-  }
-  .description-produit:hover{
-    position: relative;
-     opacity: unset;
-    bottom: 250px;
 
-  }
   .div-Card-Image{
-    overflow: hidden;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px black;
     justify-content: center;
     width: 300px;
     height: 219px;
@@ -55,65 +35,60 @@
     flex-wrap: wrap;
 
   }
+  .TryProduct{
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .TitreDeProduit{
+    text-align: center;
+  }
   
 }
 
-
-
-@media all and (max-width: 1350px){
-.App {
-  text-align: center;
-}
+@media all and (min-width: 640px){
+  .Iconos{
+    padding-left: 47%;
+    height: 30px;
+    width: 30px;
+  }
+  .TextOfDivOfTitle{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 1.5%;
+    margin-top: 2%;
+    padding-bottom: 1.5%;
+  }
 .Card{
+
   margin-top: 20px;
   margin-bottom: 20px;
   height: 100%;
-  width: 300px;
+  width: 318px;
 }
 .imgProduit{
+  border-radius: 2%;
   width: 320px;
   height: 239px;
-  transition: linear 0.2s;
 }
-.imgProduit:hover {
-  background-color: rgb(94, 86, 86);
-  background-blend-mode: multiply;
-  color: white;
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  padding: 12px 0px;
-  width: 300px;
-  height:239px; 
-}
-.description-produit{
-  opacity: unset;
-  position: relative;
-  bottom: 250px;
-}
-.description-produit:hover{
-  position: relative;
-   opacity: unset;
-  bottom: 250px;
-}
+
 .div-Card-Image{
-  overflow: hidden;
-  color: white;
-  text-shadow: 3px black;
   justify-content: center;
   width: 300px;
   height: 219px;
 }
-.descrip-produit-card{
-  transition: linear 0.5s;
-  height: 220px;
-  overflow: hidden;
-}  
+
 .div-cards{
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-
+}
+.TryProduct{
+  text-align: justify;
+  font-family: 'Quicksand', sans-serif;
+}
+.TitreDeProduit{
+  text-align: center;
 }
 }
-
-
