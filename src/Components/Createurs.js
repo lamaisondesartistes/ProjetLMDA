@@ -4,62 +4,62 @@ import img from '../Images/PP.jpg';
 
 const creators = [
   {
-    url: './images/karl.png',
+    url: 'images/img.png',
     nom: 'Karl Macabre',
     descri: 'Réalise de fulgurants progrès et rend très fier l\'équipe pédagogique.',
     poste: 'BLUE SQUAD',
   }, {
-    url: 'images/gogo.png',
+    url: 'images/img.png',
     nom: 'Gauthier Ginier',
     descri: 'Une vrai force de proposition et un leadership incontestable.',
     poste: 'xxxxxxx',
   }, {
-    url: 'images/leevan.png',
+    url: 'images/img.png',
     nom: 'Leevan Cigiscar',
     descri: 'Élève très impliqué et sérieux.',
     poste: 'xxxxxxx',
   }, {
-    url: 'images/jo.png',
+    url: 'images/img.png',
     nom: 'Jonathan Castanet',
     descri: 'Indispensable à la promotion, fait régner la joie et la bonne humeur.',
     poste: 'xxxxxxx',
   }, {
-    url: 'images/lulu.png',
+    url: 'images/img.png',
     nom: 'Lucien De Santana',
     descri: 'Ramène des fruit lorsqu\'il nous fait l\'honneur de sa présence',
     poste: 'SQUAAAAAAD',
   }, {
-    url: 'images/yc.png',
+    url: 'images/img.png',
     nom: 'Yves-christophe',
     descri: 'This nigga pull up on ur CSS bro! For real.',
     poste: 'DESIGNER',
   }, {
-    url: 'images/mm.png',
+    url: 'images/img.png',
     nom: 'Marie-Marthe',
     descri: 'Une vrai force de proposition et un leadership incontestable.',
     poste: 'xxxxxxx',
   }, {
-    url: 'images/shun.png',
+    url: 'images/img.png',
     nom: 'Shen Chapoullie',
     descri: 'Une vrai force de proposition et un leadership incontestable.',
     poste: 'xxxxxxx',
   }, {
-    url: 'images/shun.png',
+    url: 'images/img.png',
     nom: 'Shen Chapoullie',
     descri: 'Une vrai force de proposition et un leadership incontestable.',
     poste: 'xxxxxxx',
   }, {
-    url: 'images/shun.png',
+    url: 'images/img.png',
     nom: 'Shen Chapoullie',
     descri: 'Une vrai force de proposition et un leadership incontestable.',
     poste: 'xxxxxxx',
   }, {
-    url: 'images/shun.png',
+    url: 'images/img.png',
     nom: 'Shen Chapoullie',
     descri: 'Une vrai force de proposition et un leadership incontestable.',
     poste: 'xxxxxxx',
   }, {
-    url: 'images/shun.png',
+    url: 'images/img.png',
     nom: 'Shen Chapoullie',
     descri: 'Une vrai force de proposition et un leadership incontestable.',
     poste: 'xxxxxxx',
