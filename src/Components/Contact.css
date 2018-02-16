@@ -12,11 +12,6 @@
   font-family: 'Kaushan Script', cursive;
 }
 
-#legendContact {
-  text-align: center;
-  margin-bottom: 45%;
-}
-
 .contactText {
   color: white;
   display: flex;
@@ -57,7 +52,12 @@
   font-family: sans-serif;
 }
 
-@media only screen and (max-width:768px) {
+#legendContact {
+  text-align: center;
+  margin-bottom: 40%;
+}
+
+@media only screen and (max-width:960px) {
   .BoxContainer {
     display: flex;
     flex-direction: column;
@@ -73,25 +73,36 @@
     height: 550px;
   }
   #TextLorem {
+    width: 90%;
+  }
+  #legendContact {
+    margin-bottom: 0%;
+  }
+}
+
+@media only screen and (max-width:1045px) {
+  .BoxContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+  }
+  .Mapping {
+    width: 90%;
+    height: 400px;
+  }
+  #legendContact {
+    margin-bottom: 0%;
+  }
+  #TextLorem {
     position: relative;
     background-color: #659660;
     padding: 5%;
     margin-bottom: 2%;
     text-align: justify;
     height: auto;
-    width: 90%;
+    width: 80%;
     border-radius: 3px;
     color: white;
-  }
-  #legendContact {
-    text-align: center;
-    margin-bottom: 0%;
-  }
-}
-
-@media only screen and (min-width:1024px) {
-  #legendContact {
-    text-align: center;
-    margin-bottom: 65%;
   }
 }
