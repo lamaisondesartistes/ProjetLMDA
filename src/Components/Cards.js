@@ -9,19 +9,21 @@ class Cards extends Component {
   render() {
     return (
       <div>
+        <h1 className="TextOfDivOfTitle">Ateliers</h1>
         <div className="div-cards">
-          {this.state.dataProduit.map((card, i)=> {
-          return(
-          <CardProduit key={i} src={card.src} nomProduit={card.nom} descriProduit={card.descr}/>
-          )
-          })}
-          
-          
+            {this.state.dataProduit.map((card, i)=> {
+              return(
+                <CardProduit
+                key={i} 
+                src={card.src}
+                nomProduit={card.nom}
+                iconProduit={card.icone}
+                descriProduit={card.descr}/>
+              )
+            })}
         </div>
-        
       </div>
-      
-    );
+      );
   }
 }
 

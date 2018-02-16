@@ -1,111 +1,94 @@
-@media all and (min-width: 690px){
-  .App {
-    text-align: center;
+@media all and (max-width: 1350px){
+  .Iconos{
+    padding-left: 47%;
+    height: 30px;
+    width: 30px;
+  }
+  .TextOfDivOfTitle{
+    text-align: center;   
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 1.5%;
+    margin-top: 2%;
+    padding-bottom: 1.5%;
   }
   .Card{
-    height: 250px;
-    width: 350px;
-  }
- .imgProduit{
-    width: 100%;
     height: 100%;
-    background-color: rgb(128, 118, 118);
-    background-blend-mode: multiply;
-    color: rgb(255, 255, 255);
-    font-family: 'Quicksand', sans-serif;
-    width: 100%;
-    height: 100%;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: justify;
-
-    }
-    .TitreDeProduit{
-      text-align: center;
-    }
-  .TextOfDivOfTitle{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 2em;
-    
-    text-align: center;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    width: 318px;
   }
-  .div-Card-Image{
-    overflow: hidden;
-    color: rgb(0, 0, 0);
-    justify-content: center;
-    width: 100%;
+  .imgProduit{
+    width: 300px;
     height: 239px;
-    font-weight: bolder;
-    font-size: 16px;
+    border-radius: 2%;
   }
-  .TryProduct{
-    padding: 5%;
+
+  .div-Card-Image{
+    justify-content: center;
+    width: 300px;
+    height: 219px;
   }
-  
- 
+
   .div-cards{
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-}
-}
 
-
-@media all and (max-width: 1400px){
-  .App {
-    text-align: center;
   }
-  .Card{
-    display: flex;
-    height: 250px;
-    width: 350px;
+  .TryProduct{
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
   }
   .TitreDeProduit{
     text-align: center;
-    margin: 0;
   }
+  
+}
 
+@media all and (min-width: 640px){
+  .Iconos{
+    padding-left: 47%;
+    height: 30px;
+    width: 30px;
+  }
   .TextOfDivOfTitle{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 2em;
     text-align: center;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    margin: 0;
-    margin-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 1.5%;
+    margin-top: 2%;
+    padding-bottom: 1.5%;
   }
- .imgProduit{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(128, 118, 118);
-    background-blend-mode: multiply;
-    color: rgb(255, 255, 255);
-    font-family: 'Quicksand', sans-serif;
-    width: 100%;
-    height: 100%;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: justify;
-    margin: 0;
-  }
-  .div-Card-Image{
-    overflow: hidden;
-    color: rgb(0, 0, 0);
-    text-shadow: 3px black;
-    justify-content: center;
-    width: 100%;
-    height: 239px;
-    text-decoration: unset;
-  }
-  .TryProduct{
-    padding: 8%;
-  }
- 
-    .div-cards{
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
+.Card{
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100%;
+  width: 318px;
+}
+.imgProduit{
+  border-radius: 2%;
+  width: 320px;
+  height: 239px;
+}
+
+.div-Card-Image{
+  justify-content: center;
+  width: 300px;
+  height: 219px;
+}
+
+.div-cards{
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.TryProduct{
+  text-align: justify;
+  font-family: 'Quicksand', sans-serif;
+}
+.TitreDeProduit{
+  text-align: center;
 }
 }
