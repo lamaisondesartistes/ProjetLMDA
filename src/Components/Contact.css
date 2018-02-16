@@ -1,5 +1,6 @@
 .BoxContainer {
-  padding: 20px 20px 20px 20px;
+  display: flex;
+  padding: 5%;
 }
 
 .legendContactC {
@@ -11,18 +12,6 @@
   font-family: 'Kaushan Script', cursive;
 }
 
-#legendContact {
-  text-align: center;
-}
-
-.container-contact {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .contactText {
   color: white;
   display: flex;
@@ -32,72 +21,91 @@
 
 .Contact {
   display: flex;
-  width: 55%;
+  flex-direction: column;
 }
 
 .ContainerMap {
   position: relative;
-  bottom: 205px;
 }
 
 .Mapping {
-  position: relative;
   border-radius: 3px;
-  top: 131px;
   width: 40vw;
-  height: 555px;
+  height: 605px;
   border: 2px solid #659660;
 }
 
-.pictureContact {
-  font-family: 'Kaushan Script', cursive;
-  width: 100%;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  background-image: url('../Images/contact3.jpg');
-  background-size: cover;
-}
-
-.TextLorem {
+#TextLorem {
+  position: relative;
   background-color: #659660;
-  padding: 5%;
-  margin-bottom: 20%;
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  padding: 10%;
+  text-align: justify;
   height: auto;
-  width: 80%;
+  width: 60%;
   border-radius: 3px;
   color: white;
 }
 
-@media only screen and (max-width: 800px) {
-  /*For mobile phones: */
-  .container-contact {
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-  .Contact {
-    justify-content: center;
-    align-content: center;
-    width: 92vw;
-    margin-bottom: 180px;
-  }
-  .div-iframe-contact {
+.styleText {
+  font-family: sans-serif;
+}
+
+#legendContact {
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+@media only screen and (max-width:960px) {
+  .BoxContainer {
     display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  .Mapping {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 400px;
+    flex-direction: column;
+    padding: 5%;
   }
   .legendContactC {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Mapping {
+    width: 100%;
+    height: 550px;
+  }
+  #TextLorem {
+    width: 90%;
+  }
+  #legendContact {
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width:1045px) {
+  .legendContactC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .BoxContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+  }
+  .Mapping {
+    width: 90%;
+    height: 400px;
+  }
+  #legendContact {
+    margin-bottom: 10%;
+  }
+  #TextLorem {
+    position: relative;
+    background-color: #659660;
+    padding: 5%;
+    margin-bottom: 2%;
+    text-align: justify;
+    height: auto;
+    width: 80%;
+    border-radius: 3px;
+    color: white;
   }
 }
