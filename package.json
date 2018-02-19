@@ -4,7 +4,9 @@
   "build": "babel src -d lib",
   "test": "jest",
   "private": true,
+  "homepage":"https://lamaisondesartistes.github.io/ProjetLMDA/",
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
@@ -12,6 +14,8 @@
     "react-slick": "^0.17.1"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
