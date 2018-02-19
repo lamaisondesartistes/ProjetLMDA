@@ -1,6 +1,6 @@
 .BoxContainer {
   display: flex;
-  padding: 5%;
+  padding: 10%;
 }
 
 .legendContactC {
@@ -100,7 +100,6 @@
   #TextLorem {
     position: relative;
     background-color: #659660;
-    padding: 5%;
     margin-bottom: 2%;
     text-align: justify;
     height: auto;

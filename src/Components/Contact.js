@@ -4,6 +4,7 @@ import './Contact.css';
 class Contact extends Component {
     render() {
         return (
+            <div>
             <div className="BoxContainer" >
                 <div className="boxCont">
                     <h2 className="legendContactC">Renseignements</h2>
@@ -40,6 +41,9 @@ par leur production, emballage et livraison, des matières premières et de l’
 
 
             </div >
+        <Footer/>
+        </div>
+
 
         );
     }
