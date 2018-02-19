@@ -6,32 +6,32 @@ import './CardProduits2.css';
 
 const products = [
   {
-    url: './images/oiseaux.jpg',
+    url: './images/1.jpg',
     nom: 'Oiseaux',
     descri: 'Réalisé à partir de feuilles de cocotiers.',
     poste: 'objets déco',
   }, {
-    url: 'images/boule.jpg',
+    url: 'images/2.jpg',
     nom: 'Boule',
     descri: 'Réalisé',
     poste: 'objets déco',
   }, {
-    url: 'images/boule2.jpg',
+    url: 'images/3.jpg',
     nom: 'Boules',
     descri: 'Élève très impliqué et sérieux.',
     poste: 'objets déco',
   }, {
-    url: 'images/cerfs.jpg',
+    url: 'images/4.jpg',
     nom: 'Cerfs en bois',
     descri: 'Indispensable à la promotion, fait régner la joie et la bonne humeur.',
     poste: 'objets déco',
   }, {
-    url: 'images/collier.jpg',
+    url: 'images/5.jpg',
     nom: 'Collier de graines',
     descri: 'Réalisé à partir de graines du \'Péyi\'.',
     poste: 'bijoux',
   }, {
-    url: 'images/graines.jpg',
+    url: 'images/6.jpg',
     nom: 'Graines diverses',
     descri: 'Réalisé à partir de graines du \'Péyi\'.',
     poste: 'objets déco',
