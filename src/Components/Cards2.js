@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CardProduit from './CardProduits2';
-import Produits from './DataProduit';
+import Produits from './DataProduit2';
 
 class Cards extends Component {
   state={
