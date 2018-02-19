@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
 import TestImage from '../Images/contact3.jpg';
-import Cards from './Cards';
-import './CardProduit.css';
+import Cards from './Cards2';
+import './CardProduits2.css';
 
 const products = [
   {
@@ -82,11 +82,7 @@ class App extends Component {
               }  // Do something
               }>
                 <img className="creatorpp" src={products[this.state.nbr].url} alt={products[this.state.nbr].nom} />
-                <div id="creatorinfo">
-                  <h1>{products[this.state.nbr].nom}</h1>
-                  <h2>{products[this.state.nbr].poste}</h2>
-                  <p>"{products[this.state.nbr].descri}"</p>
-                </div>
+                
               </div>
               <img alt="" id="croix" onClick={this.hideModal} src="https://smartbees.fr/assets/img/x-min.png" />
             </div>
