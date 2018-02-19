@@ -22,11 +22,11 @@
     }
     .TitreDeProduit{
       text-align: center;
+      width: 100%;
     }
   .TextOfDivOfTitle{
     font-family: 'Kaushan Script', cursive;
     font-size: 2em;
-    
     text-align: center;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
@@ -53,7 +53,7 @@
 }
 
 
-@media all and (max-width: 1400px){
+@media all and (max-width: 5000px){
   .App {
     text-align: center;
   }
@@ -64,7 +64,8 @@
   }
   .TitreDeProduit{
     text-align: center;
-    margin: 0;
+ 
+    width: 100%;
   }
 
   .TextOfDivOfTitle{
