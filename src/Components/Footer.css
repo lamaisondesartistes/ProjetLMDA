@@ -1,32 +1,33 @@
 	.contenu{
-  	height:70px;
+  	height:40px;
     color: white;
 font-size:18px;
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
 	background-color:#009012;
+	padding:10px 0px;
+	}
+	.mail-footer{
+	margin-bottom:10px;
 	}
 	.color{
+		text-decoration:none;
+	color:white;
+	}
+	.color-bottom{
+		text-decoration:none;
 	color:white;
 	}
   
-  .container2{
+  .foot-contain2{
     background-color:rgb(0, 0, 0);
     color:rgba(255, 255, 255, 0.986);
     justify-content:space-between;
     padding:0px 38px;
 
   }
-  .container{
-						 border-top: 1px solid rgb(0, 0, 0);
-			 border-bottom: 1px solid rgb(0, 0, 0);
-    background-color:#009012;
-    color: white;
-		justify-content:space-around;
-  }
-	.container, .container2{
-	height:auto;
+	.foot-contain2{
 	display:flex;
 	align-items:center;
 	
@@ -41,37 +42,33 @@ font-size:18px;
 		-o-transition: 0.5s;
 		 font-size:28px;
 	}
-	.icon {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		height:40px;
-		width: 40px;
-		border-radius: 70%;
-		margin-right: 20px;
-	}
+	
 	.social:hover{
 		background-color: white;
   } 
-    .container span{
+    .foot-contain span{
     padding: 5px 20px;
   }
 
-  .container span:hover{
+  .foot-contain span:hover{
       color:#009012;
       background-color: white;
   }
-
-.alignement{
+.social-footer{
+	background-color:#009012;
+ color:black;
   display: flex;
-
+  justify-content:center;
+  padding:10px 0px;
+}
+.icon-f{
+font-size:25px;
+padding:0px 8px;
 }
 
 
-
 @media (max-width:600px){
-	.container{
+	.foot-contain{
 		height:auto;
 		display:flex;
 		flex-direction:column;
@@ -83,7 +80,7 @@ font-size:18px;
 		align-items:center;
 		}
 
-	.container{
+	.foot-contain{
 		border-top:1px;
 		height: auto;
 		display: flex;
@@ -91,7 +88,13 @@ font-size:18px;
 		flex-wrap: wrap;
 				padding: 15px;
 	}
-	.container2{
+		.color{
+	color:white;
+	position: relative;right:10px;
+		position: relative;top:18px;
+	padding:4px;
+	}
+	.foot-contain2{
 		display: flex;
 		height: auto;
 	}
