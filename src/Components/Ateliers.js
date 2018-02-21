@@ -69,8 +69,8 @@ class App extends Component {
         plaisir de contribuer à leur valorisation ainsi qu’à leur promotion, à travers toutes nos
         créations.
       </p>
-      <div className="DivOfTitle">
-            <p className="TextOfDivOfTitle">ATELIERS</p>
+      <div className="DivOfTitle2">
+            <p className="TextOfDivOfTitle2">ATELIERS</p>
       </div>
       <Cards/>
         {
@@ -89,8 +89,8 @@ class App extends Component {
 
             : null
         }
-        <div className="ImageNature">
-          <p className="TextOfDivOfTitle">PRODUITS</p>
+        <div className="ImageNature2">
+          <p className="TextOfDivOfTitle2">PRODUITS</p>
         </div>
         <ul id="Cards-container">
           {products.map((Card, i) => {
