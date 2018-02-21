@@ -7,34 +7,22 @@ import './CardProduits2.css';
 const products = [
   {
     url: './images/1.jpg',
-    nom: 'Oiseaux',
-    descri: 'Réalisé à partir de feuilles de cocotiers.',
-    poste: 'objets déco',
+    nom: 'Collier Coquillage',
   }, {
     url: 'images/2.jpg',
-    nom: 'Boule',
-    descri: 'Réalisé',
-    poste: 'objets déco',
+    nom: 'Collier Dent',
   }, {
     url: 'images/3.jpg',
     nom: 'Boules',
-    descri: 'Élève très impliqué et sérieux.',
-    poste: 'objets déco',
   }, {
     url: 'images/4.jpg',
-    nom: 'Cerfs en bois',
-    descri: 'Indispensable à la promotion, fait régner la joie et la bonne humeur.',
-    poste: 'objets déco',
+    nom: 'Graines d\'oreilles',
   }, {
     url: 'images/5.jpg',
-    nom: 'Collier de graines',
-    descri: 'Réalisé à partir de graines du \'Péyi\'.',
-    poste: 'bijoux',
+    nom: 'Colliers de graines',
   }, {
     url: 'images/6.jpg',
     nom: 'Graines diverses',
-    descri: 'Réalisé à partir de graines du \'Péyi\'.',
-    poste: 'objets déco',
   }];
 class App extends Component {
   state = {
