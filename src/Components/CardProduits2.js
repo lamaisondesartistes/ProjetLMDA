@@ -12,11 +12,11 @@ class CardMini2 extends Component {
       
     }
     return (
-      <div className="Card"  >
-          <div className="div-Card-Image">
-              <div className="imgProduit" style={Imageuh} >
-              <p className="TitreDeProduit" style={{visibility:this.state.visibility}} >{this.props.nomProduit}</p>
-              <p className="TryProduct" style={{visibility:this.state.visibility}} >{this.props.descriProduit}</p>
+      <div className="Card2"  >
+          <div className="div-Card-Image2">
+              <div className="imgProduit2" style={Imageuh} >
+              <p className="TitreDeProduit2" style={{visibility:this.state.visibility}} >{this.props.nomProduit}</p>
+              <p className="TryProduct2" style={{visibility:this.state.visibility}} >{this.props.descriProduit}</p>
               </div>
           </div>
       </div>

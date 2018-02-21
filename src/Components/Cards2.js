@@ -9,7 +9,7 @@ class Cards extends Component {
   render() {
     return (
       <div>
-        <div className="div-cards">
+        <div className="div-cards2">
           {this.state.dataProduit.map((card, i)=> {
           return(
           <CardProduit key={i} src={card.src} nomProduit={card.nom} descriProduit={card.descr}/>
