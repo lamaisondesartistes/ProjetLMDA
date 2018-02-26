@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Footer from './Footer';
 import './Presentation.css';
 import lambi from '../Images/lambi(blanc).png';
-import paysage1 from '../Images/nouveau_paysage.png';
-import paysage2 from '../Images/photoLMDA(rogne).jpg'
+import paysage1 from '../Images/IMG_20180117_161557.png';
+import paysage2 from '../Images/IMG_20180204_124949.png'
 
 
 class Presentation extends Component {
