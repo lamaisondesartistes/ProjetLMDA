@@ -3,9 +3,7 @@ import LMDA from '../Images/404.png';
 import './Notfound.css';
 
 class NOTFOUND extends Component {
-state={
 
-}
   render() {
     return (
       <div className="page-error-container">
