@@ -10,18 +10,16 @@ const divStyle = {
   backgroundColor:'rgb(128, 118, 118)',
   backgroundBlendMode:'multiply',
   width: "100%",
-  paddingTop: "12%",
-  paddingBottom: "2%",
-
+  paddingTop: '12em'
  }
 class App extends Component {
   render() {
     return (
       <div className="ContainerLMDA">
-    <div style={divStyle}>
+    <div className="jumbo" style={divStyle}>
         <h1 id="TitreLmda">La Maison Des Artistes</h1>
-        <p id="SousTitreLmda">" Rien ne se perd, tout se transforme... "<br/>
-        </p>
+        <blockquote id="SousTitreLmda">" Rien ne se perd, tout se transforme... "<br/>
+        </blockquote>
         <p className="Jumbo-Author">Antoine Laurent de Lavoisier</p>
     </div>
     <img src={lambi} alt="conque à lambi" className="imgLMDA"/>
