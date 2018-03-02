@@ -11,6 +11,9 @@
     font-family: 'Kaushan Script', cursive;
     font-weight: lighter;
   }
+  .jumbo{
+    padding-top: 12%;
+  }
   #SousTitreLmda{
     padding-top: 2%;
     font-size: 1.5em;

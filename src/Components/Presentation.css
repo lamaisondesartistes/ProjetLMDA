@@ -1,9 +1,12 @@
 .Pres-Container{
-  padding: 2%;
+  padding: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #FAFAFA;
+}
+.Pres-Container:first-child{
+  padding-top: 0;
 }
 .Pres-Back{
   width: 70%;
@@ -28,9 +31,9 @@
     border-radius: 3px;
 }
 .Pres-Lambi{
-  width: 8%;
+  width: 6%;
   position: absolute;
-  padding-left: 2%;
+  padding-left: 1%;
   background-color: #708e5a;
   border-radius: 100%;
   border: 10px solid #FAFAFA;
