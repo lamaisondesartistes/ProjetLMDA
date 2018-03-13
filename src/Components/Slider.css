@@ -1,8 +1,8 @@
 /* -------------------------------  */
 
 .sliderCoponent{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 80px;
   display: flex;
   justify-content: center;
   width: 96%
@@ -15,7 +15,7 @@
 .sliderCo{
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 70px;
   font-family:'Kaushan Script', cursive;
 }
 .sliderCopo{

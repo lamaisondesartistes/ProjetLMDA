@@ -54,7 +54,7 @@ class theSlider extends Component {
 
         return (
         <div>
-          <h1 className="sliderCo">Partenaires</h1>
+          <h2 className="sliderCo">Partenaires</h2>
         <Slidero {...settings} className="sliderCoponent" >
           {data.map((el, i)=>{
             return(
