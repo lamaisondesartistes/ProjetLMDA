@@ -23,7 +23,7 @@ par leur production, emballage et livraison, des matières premières et de l’
                         </p>
                 <div className="boxCont">
                     <div className="Contact">
-                    <h2 className="legendContactC">Renseignements</h2>
+                        <h2 className="legendContactC">Renseignements</h2>
                         <div className="TextCont">
                             <p className="styleText"><i className="fa fa-home" aria-hidden="true"></i><b className="StylePol"> Adresse : </b>La Maison des Artistes,<br /> lycée Hyacinthe Bastaraud Rue de la Savane <br />BP 18 97112 Grand-Bourg</p>
                             <p className="styleText"><i className="fa fa-envelope" aria-hidden="true"></i><b className="StylePol"> Email :</b> lamaisondesartistesmg@gmail.com</p>
@@ -39,8 +39,8 @@ par leur production, emballage et livraison, des matières premières et de l’
                         <iframe className="Mapping" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1026.3353530397678!2d-61.3137995!3d15.884135299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c6b54b98e31a5c9%3A0xe5f003c862fb434e!2sLyc%C3%A9e+Hyacinthe+Bastaraud!5e0!3m2!1sfr!2sgp!4v1516901128303" ></iframe>
                     </div>
                 </div>
-                </div>
-            </div >
+            </div>
+            </div>
         <Footer/>
         </div>
 
