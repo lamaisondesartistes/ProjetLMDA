@@ -14,10 +14,10 @@ class Header extends Component {
             <div className="iconReseaux"><i className="fab fa-twitter" /></div>
           </div>
             <div className="divLMDA">
-            <NavLink to="/Accueil"><img src={LMDA} alt="logo" className="LMDA"/></NavLink>
+            <img src={LMDA} alt="logo" className="LMDA"/>
             </div>
             <div className="divLiens">
-                <NavLink to="/" className="Liens">ACCUEIL</NavLink>
+                <NavLink to="/Accueil" className="Liens">ACCUEIL</NavLink>
                 <NavLink to="/Presentation" className="Liens">PRESENTATION</NavLink>
                 <NavLink to="/Ateliers" className="Liens">ATELIERS</NavLink>
                 <NavLink to="/Createurs" className="Liens">CREATEURS</NavLink>
