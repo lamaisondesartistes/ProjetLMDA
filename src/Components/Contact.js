@@ -6,7 +6,7 @@ class Contact extends Component {
         return (
             <div>
             <div className="BoxContainer" >
-            <p className="styleText" id="TextLorem">
+            <strong><p className="styleText" id="TextLorem">
                             Afin de porter notre pierre à l’édifice, et pour répondre à un appel à « Entreprendre en lycée »
 concours organisé par le « GIPDAIFI » nous lycée Hyacinthe Bastaraud de Marie-Galante avons choisi
 de mettre en place : « La Maison des Artistes », entreprise à caractère commerciale qui a pour but de
@@ -20,7 +20,7 @@ qui épuise les ressources naturelles, creuse les écarts de richesse et ampute 
 actuelles et futures.
 La plupart des produits que nous achetons ont un impact sur l’environnement, car ils nécessitent de
 par leur production, emballage et livraison, des matières premières et de l’énergie.
-                        </p>
+                        </p></strong>
                 <div className="boxCont">
                     <div className="Contact">
                         <h2 className="legendContactC">Renseignements</h2>
