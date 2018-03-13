@@ -15,6 +15,7 @@
 .sliderCo{
   display: flex;
   justify-content: center;
+  font-family:'Kaushan Script', cursive;
 }
 .sliderCopo{
   list-style: none;

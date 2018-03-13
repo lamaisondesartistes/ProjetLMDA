@@ -1,0 +1,112 @@
+@media all and (min-width: 690px){
+  .App {
+    text-align: center;
+  }
+  .Card2{
+    height: 250px;
+    width: 350px;
+  }
+ .imgProduit2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(128, 118, 118);
+    background-blend-mode: multiply;
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+
+    }
+    .TitreDeProduit2{
+      text-align: center;
+      width: 100%;
+    }
+  .TextOfDivOfTitle2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+  }
+  .div-Card-Image2{
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    width: 100%;
+    height: 239px;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+  .TryProduct2{
+    padding: 5%;
+  }
+  
+ 
+  .div-cards2{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+
+
+@media all and (max-width: 5000px){
+  .App {
+    text-align: center;
+  }
+  .Card2{
+    display: flex;
+    height: 250px;
+    width: 350px;
+  }
+  .TitreDeProduit2{
+    text-align: center;
+ 
+    width: 100%;
+  }
+
+  .TextOfDivOfTitle2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+ .imgProduit2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(128, 118, 118);
+    background-blend-mode: multiply;
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+    margin: 0;
+  }
+  .div-Card-Image2{
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px black;
+    justify-content: center;
+    width: 100%;
+    height: 239px;
+    text-decoration: unset;
+  }
+  .TryProduct2{
+    padding: 8%;
+  }
+ 
+    .div-cards2{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+}

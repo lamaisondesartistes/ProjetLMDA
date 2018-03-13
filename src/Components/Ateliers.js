@@ -1,38 +1,28 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
 import TestImage from '../Images/contact3.jpg';
+import Cards from './Cards2';
+import './CardProduits2.css';
 
 const products = [
   {
-    url: './images/oiseaux.jpg',
-    nom: 'Oiseaux',
-    descri: 'Réalisé à partir de feuilles de cocotiers.',
-    poste: 'objets déco',
+    url: './images/1.jpg',
+    nom: 'Collier Coquillage',
   }, {
-    url: 'images/boule.jpg',
-    nom: 'Boule',
-    descri: 'Réalisé',
-    poste: 'objets déco',
+    url: 'images/2.jpg',
+    nom: 'Collier Dent',
   }, {
-    url: 'images/boule2.jpg',
+    url: 'images/3.jpg',
     nom: 'Boules',
-    descri: 'Élève très impliqué et sérieux.',
-    poste: 'objets déco',
   }, {
-    url: 'images/cerfs.jpg',
-    nom: 'Cerfs en bois',
-    descri: 'Indispensable à la promotion, fait régner la joie et la bonne humeur.',
-    poste: 'objets déco',
+    url: 'images/4.jpg',
+    nom: 'Graines d\'oreilles',
   }, {
-    url: 'images/collier.jpg',
-    nom: 'Collier de graines',
-    descri: 'Réalisé à partir de graines du \'Péyi\'.',
-    poste: 'bijoux',
+    url: 'images/5.jpg',
+    nom: 'Colliers de graines',
   }, {
-    url: 'images/graines.jpg',
+    url: 'images/6.jpg',
     nom: 'Graines diverses',
-    descri: 'Réalisé à partir de graines du \'Péyi\'.',
-    poste: 'objets déco',
   }];
 class App extends Component {
   state = {
@@ -56,16 +46,21 @@ class App extends Component {
 
   render() {
 
+
     const { modalVisibility } = this.state;
     return (
 
+
       <div id="App">
-        <p className="TextLoremH">Marie-galante est riche de productions locales et de
+      <p className="TextLoremH">Marie-galante est riche de productions locales et de
         traditions ancrées dans le patrimoine. Par conséquent LA MAISON DES ARTISTES se fera un
         plaisir de contribuer à leur valorisation ainsi qu’à leur promotion, à travers toutes nos
         créations.
       </p>
-
+      <div className="DivOfTitle2">
+            <p className="TextOfDivOfTitle2">ATELIERS</p>
+      </div>
+      <Cards/>
         {
           modalVisibility ?
 
@@ -75,19 +70,15 @@ class App extends Component {
               }  // Do something
               }>
                 <img className="creatorpp" src={products[this.state.nbr].url} alt={products[this.state.nbr].nom} />
-                <div id="creatorinfo">
-                  <h1>{products[this.state.nbr].nom}</h1>
-                  <h2>{products[this.state.nbr].poste}</h2>
-                  <p>"{products[this.state.nbr].descri}"</p>
-                </div>
+                
               </div>
               <img alt="" id="croix" onClick={this.hideModal} src="https://smartbees.fr/assets/img/x-min.png" />
             </div>
 
             : null
         }
-        <div className="ImageNature">
-          <p className="TextAlignCenter">Nos Produits</p>
+        <div className="ImageNature2">
+          <p className="TextOfDivOfTitle2">PRODUITS</p>
         </div>
         <ul id="Cards-container">
           {products.map((Card, i) => {
