@@ -18,6 +18,11 @@
   font-size: 3em;
   text-align: center;
 }
+@media only screen and (max-width: 640px){
+  .Pres-Title{
+    font-size: 2em;
+  }
+}
 .Pres-Title:nth-last-child(1n){
   padding-top: 3%;
 }
