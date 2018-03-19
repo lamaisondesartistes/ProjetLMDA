@@ -70,10 +70,10 @@ class Createurs extends Component {
     return (
 
       <div id="App">
-        <p className="TextLoremH">"J’ai été initié au développement durable. Cela me plaît. De
+        <strong><p className="TextLoremH">"J’ai été initié au développement durable. Cela me plaît. De
 plus, j’ai développé des talents artistiques et un esprit de créativité méconnu à
 la base."
-        </p>
+        </p></strong>
         {
           modalVisibility ?
 

@@ -11,30 +11,23 @@ body {
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
-  font-family: 'commic sans ms';
-}
-
-.containerReseaux{
-  display: flex;
-  justify-content:flex-end;
-  height: 50px;
+ font-family: 'Quicksand', sans-serif;
 }
 .Reseaux{
   height: 50px;
+  width: 93%;
   align-items: center;
   display: flex;
-  justify-content: flex-end;
-
+ justify-content: flex-end;
 }
-
 .iconReseaux{
+  margin: 5px;
 border-radius: 50%;
-padding: 7px;
-background-color:rgba(23, 133, 1, 0.493);
+padding: 10px;
+background-color:rgba(18, 105, 0, 0.493);
 cursor: pointer;
- color:rgba(255, 255, 255, 0.911);
-display: inline-block;
-margin: 0 5px;
+color:rgba(255, 255, 255, 0.911);
+display: flex;
 }
 
 .divLMDA {
@@ -50,20 +43,14 @@ margin: 0 5px;
 .divLiens {
   display: flex;
   justify-content: space-around;
+  padding: 5px;
 }
 
 .Liens {
   text-decoration: none;
-  color: rgba(38, 107, 3, 0.781);
-  padding: 20px;
+  color: rgba(23, 133, 1, 0.493);
+  padding: 10px;
 }
-
-.divLiens :hover,
-.divLiens .active {
-  color: rgba(255, 255, 255, 0.856);
-  background-color: rgb(16, 71, 2);
-}
-
 .Langues :hover,
 .Langues .active {
   color: rgba(23, 133, 1, 0.493);
@@ -72,11 +59,11 @@ margin: 0 5px;
 
 .divLiens :hover,
 .divLiens .active {
-  color: rgb(255, 253, 253);
-  background-color: rgba(35, 83, 2, 0.644);
+  color: rgb(255, 255, 255);
+  background-color: rgba(34, 83, 2, 0.788);
 }
 .Reseaux :hover{
-  color :rgba(13, 71, 3, 0.973);
+  color :rgba(123, 168, 115, 0.973);
   background-color: #fffafa;
 }
 
@@ -144,6 +131,7 @@ margin: 0 5px;
     color: rgba(255, 255, 255, 0.788);
     background-color: rgba(59, 109, 26, 0.651);
   }
+ 
 }
 
 /*===================================GOGO==========================================*/
@@ -152,6 +140,7 @@ margin: 0 5px;
 
 .TextLoremH {
   background-color: #659660;
+  padding: 10px;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   border-radius: 3px;

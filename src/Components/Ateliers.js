@@ -52,11 +52,11 @@ class App extends Component {
 
 
       <div id="App">
-      <p className="TextLoremH">Marie-galante est riche de productions locales et de
+      <strong><p className="TextLoremH">Marie-galante est riche de productions locales et de
         traditions ancrées dans le patrimoine. Par conséquent LA MAISON DES ARTISTES se fera un
         plaisir de contribuer à leur valorisation ainsi qu’à leur promotion, à travers toutes nos
         créations.
-      </p>
+      </p></strong>
       <div className="DivOfTitle2">
             <p className="TextOfDivOfTitle2">ATELIERS</p>
       </div>
