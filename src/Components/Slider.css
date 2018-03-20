@@ -1,5 +1,7 @@
 /* -------------------------------  */
-
+.contenairSlider{
+  display: block;
+}
 .sliderCoponent{
   margin-top: 30px;
   margin-bottom: 80px;
@@ -10,11 +12,12 @@
 .sliderCoponentImg{
   height: 77px;
   width: 75px;
-  margin-left: 45%;
+  margin-left: 37%;
 }
 .sliderCo{
   display: flex;
   justify-content: center;
+  align-items: center;  
   margin-top: 70px;
   font-family:'Kaushan Script', cursive;
 }
