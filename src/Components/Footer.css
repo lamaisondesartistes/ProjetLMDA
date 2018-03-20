@@ -1,12 +1,16 @@
 	.contenu{
-  	height:40px;
+  	height:30px;
     color: white;
-font-size:18px;
+	font-size:16px;
+	font-family: 'Quicksand', sans-serif;
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
-	background-color:#009012;
+	background-color:rgb(34, 117, 44);
 	padding:10px 0px;
+	}
+    .tel-footer{
+	padding-bottom:8px;
 	}
 	.mail-footer{
 	margin-bottom:10px;
@@ -15,51 +19,40 @@ font-size:18px;
 		text-decoration:none;
 	color:white;
 	}
+	.foot-link{
+	color:white;
+	text-decoration:none;
+	}
 	.color-bottom{
 		text-decoration:none;
 	color:white;
 	}
   
   .foot-contain2{
-    background-color:rgb(0, 0, 0);
+	display:flex;
+    background-color:rgb(34, 117, 44);
     color:rgba(255, 255, 255, 0.986);
-    justify-content:space-between;
-    padding:0px 38px;
-
-  }
+	justify-content:space-between;
+	font-family: 'Quicksand', sans-serif;
+	padding:0px 38px;
+	font-size:14px;
+}
 	.foot-contain2{
 	display:flex;
 	align-items:center;
 	
 	}
 	.icon.social {
-		color:rgb(0, 0, 0);
 		cursor: pointer;
+		text-rendering: optimizeLegibility;
 		display:flex;
-			transition: 0.5s;
-		-moz-transition: 0.5s;
-		-webkit-transition: 0.5s;
-		-o-transition: 0.5s;
-		 font-size:28px;
 	}
-	
-	.social:hover{
-		background-color: white;
-  } 
-    .foot-contain span{
-    padding: 5px 20px;
-  }
-
-  .foot-contain span:hover{
-      color:#009012;
-      background-color: white;
-  }
 .social-footer{
-	background-color:#009012;
- color:black;
+  background-color:rgb(34, 117, 44);
+  color:rgb(253, 253, 255);
   display: flex;
   justify-content:center;
-  padding:10px 0px;
+  padding:8px 0px;
 }
 .icon-f{
 font-size:25px;
@@ -78,24 +71,25 @@ padding:0px 8px;
 		display:flex;
 		flex-direction:column;
 		align-items:center;
+		padding-top:20px;
 		}
 
 	.foot-contain{
-		border-top:1px;
+		border-top:;
 		height: auto;
 		display: flex;
 		/*flex-direction: column;*/
 		flex-wrap: wrap;
-				padding: 15px;
+	    padding: 15px;
 	}
-		.color{
+	.color{
 	color:white;
 	position: relative;right:10px;
-		position: relative;top:18px;
-	padding:4px;
+	position: relative;top:18px;
 	}
 	.foot-contain2{
 		display: flex;
 		height: auto;
+		font-size:12px;
 	}
 }

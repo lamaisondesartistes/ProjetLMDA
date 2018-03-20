@@ -3,7 +3,9 @@ import { NavLink } from 'react-router-dom';
 import './Footer.css';
 
 class Footer extends Component {
-
+    showTop = () => {
+        window.scrollTo(0, 0)
+    }
 
     render() {
         return (
@@ -22,7 +24,7 @@ class Footer extends Component {
                         <p>Made with <i className="fa fa-heart"></i> by Simplon MG </p>
                     </div>
                     <div>
-                        <p>MentionsLégales<i className="fa fa-arrow-right"></i></p>
+                        <NavLink to="/MentionsLegales" onClick={this.showTop} className="foot-link">Mentionslégales</NavLink> <i className="fa fa-arrow-right"></i>
                     </div>
 
                 </div>
