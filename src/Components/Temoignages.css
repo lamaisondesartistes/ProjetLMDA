@@ -3,13 +3,16 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin-top: 50px;
-
+  
+  padding-bottom: 50px;
 
 }
 .Temoitext{
   font-family: 'Kaushan Script', cursive;
+ 
+
 }
+
 .Wit-Grandcontainer{
   height: auto;
   display: flex;
@@ -22,7 +25,7 @@
 .Wit-container{
   display: flex;
   justify-content: space-around;
-  background-color: rgba(25, 79, 33,0.6);
+  background-color: #016837;
   font-family: 'Quicksand', sans-serif;  
   align-items: center;
  padding: 10px;
@@ -47,7 +50,7 @@
   .Wit-app:hover{
     transition: box-shadow 0.3s ease-in-out;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-   background-color: #446953;
+   background-color:#016837;
 
   }
   .Container-img{
@@ -62,11 +65,12 @@
   justify-content: center;  
   padding: 0px 2px;
   top:10%;
- color: #333333;
+ color: white;
  position: relative;
   text-align: left;
   width: 100%;
   font-size: 20px;
+  font-family: 'Kaushan Script', cursive;
  
   } 
   .textTemoignage p{
@@ -74,7 +78,7 @@ margin: 2px;
   } 
 
 .Wit-text{
-  font-size: 75%;
+  font-size: 85%;
   justify-content: flex-start;
   padding: 2px;
 }
@@ -85,6 +89,10 @@ margin: 2px;
    font-family: 'Quicksand', sans-serif;
    padding: 2px;
 
+}
+.svg-inline--fa{
+  font-size: 10px;
+  color: #fafafa;
 }
 
 
