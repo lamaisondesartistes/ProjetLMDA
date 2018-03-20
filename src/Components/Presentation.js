@@ -35,11 +35,14 @@ qui épuise les ressources naturelles, creuse les écarts de richesse et ampute 
 actuelles et futures.</p>
                 </div>
             </div>
-            <div className="Pres-traitContainer">
-            <div className="Pres-LambiContainer">
-            <img src={lambi} alt="lambi" className="Pres-Lambi"/>
-            </div>
-            </div>
+            
+            <div className="TraitContainer">
+                <div className="LambiContainer">
+                <img src={lambi} alt="lambi" className="Pres-Lambi"/>
+                </div>
+            </div> 
+            
+            
 
 
             <div className="Pres-Container">

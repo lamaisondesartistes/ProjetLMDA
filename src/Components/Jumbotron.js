@@ -8,7 +8,7 @@ const divStyle = {
   backgroundImage: `url(${fond})`,
   backgroundSize:'cover',
   backgroundColor:'rgb(128, 118, 118)',
-  backgroundBlendMode:'multiply',
+  filter: 'brightness(90%)',
   width: "100%",
   paddingTop: '12em'
  }
