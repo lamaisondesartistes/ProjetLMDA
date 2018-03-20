@@ -9,21 +9,21 @@ class Temoignages extends Component {
           element:{
             image:"./images/img.png",
             nom:" PERATOU Katussia ",
-            texte:"\" Travailler au sein de cette entreprise me permet de découvrir et de vaincre les réticences vis-à-vis de la création d'entreprise. \" ",
+            texte:" Travailler au sein de cette entreprise me permet de découvrir et de vaincre les réticences vis-à-vis de la création d'entreprise. ",
           }
         },
         {
          element:{
           image:"./images/img.png",
           nom:" THOMAS Medhi ",
-          texte:"\" Dans cette entreprise, mon travail est valorisé, ce qui fait émerger en moi une double motivation.\""
+          texte:" Dans cette entreprise, mon travail est valorisé, ce qui fait émerger en moi une double motivation. "
         }
       },
       {
         element:{
           image:"./images/img.png",
           nom:" FARGEAU Marielle ",
-          texte:"\" Grâce à La Maison Des Artistes, j'ai récupéré des repères liés au monde du travail.\""
+          texte:" Grâce à La Maison Des Artistes, j'ai récupéré des repères liés au monde du travail. "
         
       }
     }
@@ -40,7 +40,7 @@ class Temoignages extends Component {
           
         <div className="textTemoignage">
           <p className="Wit-text"><strong>{el.element.nom}</strong></p>         
-          <p className="Wit-textN">{el.element.texte}</p></div>
+          <p className="Wit-textN"><i className="fas fa-quote-left"></i>{el.element.texte}<i className="fas fa-quote-right"></i></p></div>
           </div>
           </div>
            
