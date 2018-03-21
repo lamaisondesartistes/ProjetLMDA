@@ -24,7 +24,7 @@ const data=[
 class theSlider extends Component {
     render() {
         const settings = {
-            dots: true,
+            dots: false,
             infinite: true,
             speed: 500,
             slidesToShow: 7,
@@ -37,7 +37,7 @@ class theSlider extends Component {
                     slidesToShow: 5,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: true,
+                    dots: false,
                   } },
                   {
                   breakpoint: 768,
@@ -45,7 +45,7 @@ class theSlider extends Component {
                     slidesToShow: 4,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: true,
+                    dots: false,
                   } },
                   {
                   breakpoint: 600,
@@ -53,14 +53,14 @@ class theSlider extends Component {
                     slidesToShow: 3,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: true,
+                    dots: false,
                   } }, {
                   breakpoint: 450,
                   settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     infinite: true,
-                    dots: true,
+                    dots: false,
                   }
                 } ]
           };
