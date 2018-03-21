@@ -68,7 +68,7 @@ display: flex;
 }
 
 
-@media all and (min-width: 640px) and (max-width:1024px) {
+@media all and (min-width: 840px) and (max-width:1024px) {
   body {
     margin: 0;
     padding: 0;
@@ -519,3 +519,4 @@ display: flex;
     text-align: justify;
   }
 }
+
