@@ -21,7 +21,7 @@ class Header extends Component {
 					<img src={LMDA} alt="logo" className="LMDA" />
 				</div>
 				<div className="divLiens">
-					<NavLink to="/Accueil" className="Liens">
+					<NavLink exact to="/" className="Liens">
 						ACCUEIL
 					</NavLink>
 					<NavLink to="/Presentation" className="Liens">
