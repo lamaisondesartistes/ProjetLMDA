@@ -1,12 +1,12 @@
 	.contenu{
   	height:30px;
-    color: white;
+    color: #016837;
 	font-size:16px;
 	font-family: 'Quicksand', sans-serif;
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
-	background-color:rgb(34, 117, 44);
+	background-color:#E5E5E5;
 	padding:10px 0px;
 	}
     .tel-footer{
@@ -17,21 +17,21 @@
 	}
 	.color{
 		text-decoration:none;
-	color:white;
+	color:#016837;
 	}
 	.foot-link{
-	color:white;
+	color:#016837;
 	text-decoration:none;
 	}
 	.color-bottom{
 		text-decoration:none;
-	color:white;
+	color:#016837;
 	}
   
   .foot-contain2{
 	display:flex;
-    background-color:rgb(34, 117, 44);
-    color:rgba(255, 255, 255, 0.986);
+    background-color:#E5E5E5;
+    color:#016837;
 	justify-content:space-between;
 	font-family: 'Quicksand', sans-serif;
 	padding:0px 38px;
@@ -48,11 +48,13 @@
 		display:flex;
 	}
 .social-footer{
-  background-color:rgb(34, 117, 44);
-  color:rgb(253, 253, 255);
+  background-color:#E5E5E5;
   display: flex;
   justify-content:center;
   padding:8px 0px;
+}
+.svg-inline--fa{
+	color: #016837;
 }
 .icon-f{
 font-size:25px;
@@ -75,7 +77,6 @@ padding:0px 8px;
 		}
 
 	.foot-contain{
-		border-top:;
 		height: auto;
 		display: flex;
 		/*flex-direction: column;*/
@@ -83,7 +84,7 @@ padding:0px 8px;
 	    padding: 15px;
 	}
 	.color{
-	color:white;
+	color:#016837;
 	position: relative;right:10px;
 	position: relative;top:18px;
 	}
