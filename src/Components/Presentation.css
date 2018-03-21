@@ -36,12 +36,18 @@
     border-radius: 3px;
 }
 .Pres-Lambi{
-  width: 15%;
   background-color: #016837;
+  width: 10em;
+  padding-left: 3em;
   border-radius: 100%;
-  padding-left: 3%;
-  border: 10px solid #FAFAFA
 }
+@media only screen and (max-width: 640px){
+  .Pres-Lambi{
+    width: 3em;
+    padding-left: 1em;
+  }
+}
+
 .TraitContainer{
   display: flex;
   justify-content: center;
