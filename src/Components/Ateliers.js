@@ -13,16 +13,16 @@ const products = [
     nom: 'Collier Dent',
   }, {
     url: 'images/3.jpg',
-    nom: 'Boules',
+    nom: 'Oeil de boeuf',
   }, {
     url: 'images/4.jpg',
-    nom: 'Graines d\'oreilles',
+    nom: 'Boucles d\'oreilles',
   }, {
     url: 'images/5.jpg',
-    nom: 'Colliers de graines',
+    nom: 'Colliers divers',
   }, {
     url: 'images/6.jpg',
-    nom: 'Graines diverses',
+    nom: 'Boucles d\'oreilles divers',
   }];
 class App extends Component {
   state = {
