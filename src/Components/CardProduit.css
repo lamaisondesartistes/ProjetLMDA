@@ -15,6 +15,9 @@
 		padding-bottom: 1.5%;
 	}
 	.Card {
+		padding-bottom: 5%;
+		margin-top: 5%;
+		margin-bottom: 5%;
 		background-color: #e5e5e5;
 		height: 100%;
 		width: 318px;
