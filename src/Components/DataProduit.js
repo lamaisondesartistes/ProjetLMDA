@@ -1,9 +1,9 @@
 import IMG3 from '../Images/LMDA3.png';
 import IMG4 from '../Images/LMDA4.png';
 import IMG5 from '../Images/LMDA5.png';
-import nature from '../Images/pagelines.png';
-import graduation from '../Images/graduation-cap1.png';
-import leanpub from '../Images/leanpub1.png';
+import nature from '../Images/pagelines1.png';
+import graduation from '../Images/chapeau2.png';
+import leanpub from '../Images/leanpub2.png';
 
 var Produits = [
 	{

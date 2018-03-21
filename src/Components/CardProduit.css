@@ -1,95 +1,95 @@
-@media all and (max-width: 1350px){
-  .Iconos{
-    padding-left: 47%;
-    height: 30px;
-    width: 30px;
-  }
-  .TextOfDivOfTitle{
-    text-align: center;   
-    font-family: 'Kaushan Script', cursive;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding-top: 1.5%;
-    margin-top: 2%;
-    padding-bottom: 1.5%;
-  }
-  .Card{
-    height: 100%;
-    width: 318px;
-  }
-  .imgProduit{
-    margin-top: 10%;
-    width: 300px;
-    height: 239px;
-    border-radius: 2%;
-  }
+@media all and (max-width: 1350px) {
+	.Iconos {
+		padding-left: 47%;
+		height: 30px;
+		width: 30px;
+		color: black;
+	}
+	.TextOfDivOfTitle {
+		text-align: center;
+		font-family: 'Kaushan Script', cursive;
+		margin-left: 25%;
+		margin-right: 25%;
+		padding-top: 1.5%;
+		margin-top: 2%;
+		padding-bottom: 1.5%;
+	}
+	.Card {
+		background-color: #e5e5e5;
+		height: 100%;
+		width: 318px;
+	}
+	.imgProduit {
+		margin-top: 10%;
+		width: 300px;
+		height: 239px;
+	}
 
-  .div-Card-Image{
-    justify-content: center;
-    width: 300px;
-    height: 219px;
-  }
+	.div-Card-Image {
+		justify-content: center;
+		width: 300px;
+		height: 219px;
+	}
 
-  .div-cards{
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-
-  }
-  .TryProduct{
-    text-align: justify;
-    font-family: 'Quicksand', sans-serif;
-  }
-  .TitreDeProduit{
-    text-align: center;
-  }
-  
+	.div-cards {
+		justify-content: space-around;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.TryProduct {
+		text-align: justify;
+		font-family: 'Quicksand', sans-serif;
+	}
+	.TitreDeProduit {
+		text-align: center;
+	}
 }
 
-@media all and (min-width: 640px){
-  .Iconos{
-    padding-left: 47%;
-    height: 30px;
-    width: 30px;
-  }
-  .TextOfDivOfTitle{
-    text-align: center;
-    font-family: 'Kaushan Script', cursive;
-    margin-left: 35%;
-    margin-right: 35%;
-    padding-top: 1.5%;
-    margin-top: 2%;
-    padding-bottom: 1.5%;
-  }
-.Card{
+@media all and (min-width: 640px) {
+	.Iconos {
+		padding-left: 47%;
+		height: 30px;
+		width: 30px;
+		color: black;
+	}
+	.TextOfDivOfTitle {
+		text-align: center;
+		font-family: 'Kaushan Script', cursive;
+		margin-left: 35%;
+		margin-right: 35%;
+		padding-top: 1.5%;
+		margin-top: 2%;
+		padding-bottom: 1.5%;
+	}
+	.Card {
+		padding: 14px 19px;
+		background-color: #e5e5e5;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 100%;
+		width: 318px;
+	}
+	.imgProduit {
+		width: 320px;
+		height: 239px;
+	}
 
-  margin-top: 20px;
-  margin-bottom: 20px;
-  height: 100%;
-  width: 318px;
-}
-.imgProduit{
-  border-radius: 2%;
-  width: 320px;
-  height: 239px;
-}
+	.div-Card-Image {
+		justify-content: center;
+		width: 300px;
+		height: 219px;
+	}
 
-.div-Card-Image{
-  justify-content: center;
-  width: 300px;
-  height: 219px;
-}
-
-.div-cards{
-  justify-content: space-around;
-  display: flex;
-  flex-wrap: wrap;
-}
-.TryProduct{
-  text-align: justify;
-  font-family: 'Quicksand', sans-serif;
-}
-.TitreDeProduit{
-  text-align: center;
-}
+	.div-cards {
+		justify-content: space-around;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.TryProduct {
+		text-align: justify;
+		font-family: 'Quicksand', sans-serif;
+	}
+	.TitreDeProduit {
+		text-align: center;
+	}
 }
