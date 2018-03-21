@@ -21,9 +21,18 @@ const products = [
     url: 'images/5.jpg',
     nom: 'Colliers divers',
   }, {
+    url: 'images/7.jpg',
+    nom: 'Colliers de bambou',
+   
+  },{
+    url: 'images/8.jpg',
+    nom: 'Boucles d\'oreille avec canique',
+   
+  }, {
     url: 'images/6.jpg',
     nom: 'Boucles d\'oreilles divers',
-  }];
+  }
+];
 class App extends Component {
   state = {
     modalVisibility: false,
