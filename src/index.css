@@ -102,7 +102,7 @@ display: flex;
   .divLiens :hover,
   .divLiens .active {
     color: rgb(255, 253, 253);
-    background-color: rgba(35, 83, 2, 0.644);
+    background-color: #016837;
   }
 }
 
@@ -123,13 +123,13 @@ display: flex;
   }
   .Liens {
     text-decoration: none;
-    color: rgba(38, 107, 3, 0.781);
+    color: #016837;
     padding: 10px;
   }
   .divLiens :hover,
   .divLiens .active {
     color: rgba(255, 255, 255, 0.788);
-    background-color: rgba(59, 109, 26, 0.651);
+    background-color: #016837;
   }
  
 }
@@ -143,7 +143,7 @@ display: flex;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   border-radius: 3px;
-  color: #E5E5E5;
+  color: grey;
 }
 .Cards > p{
   background-color: #016837;
