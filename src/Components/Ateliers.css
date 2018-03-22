@@ -1,0 +1,127 @@
+.atepicture {
+    height: 270px;
+    width: 275px;
+  }
+  
+  .ateslider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 38px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .atesentence {
+    height: auto;
+    width: 470px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .boxpicture {
+    padding: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .boxtitle {
+    text-align: center;
+    width: 275px; /*400px*/
+    height: auto;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .boxsentence {
+    text-align: justify;
+    width: 470px; /*400px*/
+    height: auto;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .atesentences {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    width: 275px;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .fa-chevron-right,
+  .fa-chevron-left {
+    font-size: 35px;
+    color: black;
+    margin: 0px 38px;
+  }
+  
+  .slider-container {
+    width: 275px; /*400px*/
+    height: auto;
+    overflow: hidden;
+    background-size: cover;
+    padding-bottom: 5px;
+    /* border: 1px solid;*/
+    display: flex;
+    align-items: center;
+  }
+  .list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .DivOfTitle2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .TextOfDivOfTitle2 {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 38px;
+    font-family: "Kaushan Script", cursive;
+  }
+  
+  @media (max-width: 660px) {
+    .fa-chevron-right,
+    .fa-chevron-left {
+      font-size: 35px;
+      color: black;
+      margin: 0px 20px;
+    }
+  
+    .boxsentence {
+      width: 310px;
+      height: auto;
+      /*border: 1px solid;*/
+      padding: 0px;
+    }
+  
+    .atesentence {
+      width: 300px;
+      height: auto;
+      margin-right: 170px;
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 360px) {
+    .fa-chevron-right,
+    .fa-chevron-left {
+      font-size: 35px;
+      color: black;
+      margin: 0px 5px;
+    }
+  }
+  
