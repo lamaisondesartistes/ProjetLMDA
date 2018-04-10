@@ -7,8 +7,10 @@
   "homepage": "https://lamaisondesartistes.github.io/ProjetLMDA/",
   "dependencies": {
     "gh-pages": "^1.1.0",
+    "leaflet": "^1.3.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-leaflet": "^1.9.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
     "react-slick": "^0.17.1"
