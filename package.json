@@ -4,7 +4,7 @@
   "build": "babel src -d lib",
   "test": "jest",
   "private": true,
-  "homepage": "https://lamaisondesartistes.github.io/ProjetLMDA/",
+  "homepage": ".",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
